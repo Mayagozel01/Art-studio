@@ -1,0 +1,148 @@
+.main
+    +m
+        margin-bottom: 64px
+    &__center
+        max-width: 1440px
+        +w
+            padding: 0 40px
+        +t
+            padding: 0
+        +m
+            padding: 0 8px
+    &__preview
+        position: relative
+        &:before
+            content: ""
+            display: block
+        img
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            border-radius: 24px
+            object-fit: cover
+            +t
+                border-radius: 0
+            +m
+                position: static
+                border-radius: 16px 16px 0 0
+                object-position: 50% 100%
+    &__bg
+        height: 254px
+        +m
+            height: 200px
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+    &__wrap
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        padding: 145px 80px
+        +d
+            padding: 98px 80px
+        +t
+            padding: 80px 40px
+        +m
+            padding: 80px 16px
+            text-align: center
+    &__title
+        margin-bottom: 16px
+        +dark
+            color: $n2
+    &__info
+        margin-top: 0 
+        margin-bottom: 24px
+        color: $n2
+        +d
+            font-size: 16px
+    &_stays,
+    &_flights,
+    &_tasks,
+        +d
+            margin-bottom: 96px 
+            +m
+            margin-bottom: 64px
+    &_stays &__preview,
+    &_flights &__preview,
+    &_tasks &__preview,
+    &_cars &__preview
+        &:before
+            padding-bottom: 60.63%
+            +d
+                padding-bottom: 64%
+            +m
+                display: none
+    &_stays &__preview
+        img
+            +m
+                height: 780px
+    &_flights &__preview,
+    &_cars &__preview
+        img
+            +m
+                height: 700px 
+    &_tasks &__preview
+        img
+            +m
+                height: 550px 
+                object-position: 50% 35%
+    &_tasks-category &__preview
+        &:before
+            padding-bottom: 46%
+            +m
+                display: none
+        img
+            +m
+                height: 450px
+                object-position: 50% 100%
+    &_stays &__title,
+    &_flights &__title
+        max-width: 450px
+    &_tasks &__title,
+    &_tasks-category &__title,
+    &_cars &__title
+        +m
+            font-size: 48px 
+    &_stays-category &__preview
+        &:before
+            padding-bottom: 46%
+            +m
+                display: none
+        img
+            +m
+                height: 500px 
+    &_stays-category &__wrap,
+    &_tasks &__wrap,
+    &_cars &__wrap
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        padding: 70px 80px 184px
+        text-align: center
+        +d
+            padding: 80px 80px 160px
+        +t
+            padding: 50px 64px 100px
+        +m
+            padding: 24px 16px 72px
+    &_cars &__wrap
+        +m
+            display: block
+            padding-top: 108px
+    &_tasks-category &__wrap
+        text-align: center
+    &_flights &__info
+        +m
+            font-size: 24px
+    &_flights-category &__center
+        max-width: 1440px
+        +w
+            padding: 0 40px
+        +m
+            padding: 0 8px

@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,21 +13,26 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
-"
+			href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
 			rel="stylesheet"
 		/>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./src/style/css/style.css" />
+		<link rel="stylesheet" href="../style/css/style.css" />
 		<title>Atr Building</title>
 	</head>
+
+	
+
 	<body class="body">
 		<div class="wrap">
-			<header class="header">
+			<div data-include="layouts/header.html"></div>
+
+			<!-- <div w3-include-html="./layouts/header.html"></div> -->
+
+			<!-- <header class="header">
 				<div class="header-top">
 					<div class="header__menu-list-item">
 						<a href="">Заказать звонок</a>
@@ -100,7 +106,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 						</div>
 					</div>
 				</div>
-			</header>
+			</header> -->
 			<main class="main active">
 				<div class="main__list">
 					<div class="main__list-item">
@@ -849,6 +855,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		></script>
-		<script src="./src/js/index.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/importer.js"></script>
 	</body>
 </html>

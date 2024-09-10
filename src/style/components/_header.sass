@@ -1,0 +1,489 @@
+.header
+    position: relative
+    z-index: 10
+    padding: 24px 0
+    +m
+        padding: 48px 0 24px
+    &__center
+        display: flex 
+        align-items: center
+    &__logo
+        margin-right: 40px
+        +d
+            margin-right: 32px
+        +m
+            position: relative
+            z-index: 15
+            margin-right: auto
+        img
+            width: 106px
+    &__wrapper
+        display: flex
+        align-items: center
+        flex-grow: 1
+        padding-left: 40px
+        border-left: 1px solid $n6
+        +d
+            padding-left: 32px
+        +t
+            padding-left: 0
+            border: none
+        +m
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            z-index: 10
+            flex-direction: column
+            align-items: stretch
+            height: calc(var(--vh, 1vh) * 100)
+            padding: 132px 32px 48px
+            background: $n8
+            visibility: hidden
+            opacity: 0
+            pointer-events: none
+            transition: all .3s
+            +dark
+                background: $n1
+            &.visible
+                visibility: visible
+                opacity: 1
+                pointer-events: all
+        +dark
+            border-color: $n2
+    &__item
+        position: relative
+        +m
+            position: static
+        &_dropdown
+            +t
+                margin-right: auto
+            +m
+                margin: 0
+        &_language
+            margin-left: 40px
+            +t
+                margin-left: 32px
+            +m
+                display: none
+    &__head
+        -webkit-tap-highlight-color: rgba(0,0,0,0)
+    &__item_dropdown &__head,
+    &__item_language &__head
+        display: flex
+        align-items: center
+        +button-2
+        color: $n4
+        transition: color .2s
+        +m
+            display: none
+        .icon
+            fill: $n4
+            transition: all .2s
+        &:hover
+            color: $n2
+            .icon
+                fill: $n2
+            +dark
+                color: $n6
+                .icon
+                    fill: $n6
+    &__item_dropdown &__head
+        .icon
+            width: 24px
+            height: 24px
+            margin-left: 8px
+    &__item_dropdown.active &__head
+        color: $n2
+        .icon
+            transform: rotate(180deg)
+            fill: $n2
+        +dark
+            color: $n6
+            .icon
+                fill: $n6
+    &__item_language &__head
+        height: 24px 
+        .icon
+            width: 16px
+            height: 16px
+            margin-right: 12px
+    &__item_language.active &__head
+        color: $n2
+        .icon
+            fill: $n2
+        +dark
+            color: $n6
+            .icon
+                fill: $n6
+    &__item_notification &__head
+        position: relative
+        .icon
+            width: 24px
+            height: 24px
+            fill: $n4
+            transition: fill .2s
+        &:hover
+            .icon
+                fill: $n2
+                +dark
+                    fill: $n6
+        &.active
+            &:before
+                content: ""
+                position: absolute
+                top: 0
+                right: 0
+                width: 12px
+                height: 12px
+                border-radius: 50%
+                background: $p4
+    &__item_notification.active &__head
+        svg
+            fill: $n2
+            +dark
+                fill: $n6
+    &__item_user &__head
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+            border-radius: 50%
+    &__item_notification &__head,
+    &__item_user &__head
+        width: 40px
+        height: 40px
+        -webkit-tap-highlight-color: rgba(0,0,0,0)
+    &__body
+        position: absolute
+        background: $n8
+        visibility: hidden
+        opacity: 0
+        transform: translateY(10px)
+        transition: all .3s
+    &__item.active &__body
+        visibility: visible
+        opacity: 1
+        transform: translateY(0)
+    &__item_dropdown &__body,
+    &__item_language &__body,
+    &__item_user &__body
+        position: absolute
+        width: 292px
+        padding: 16px
+        border-radius: 20px
+        box-shadow: 0px 40px 32px -8px rgba(15, 15, 15, 0.12)
+    &__item_dropdown &__body,
+    &__item_language &__body
+        top: calc(100% + 41px)
+        left: -40px
+    &__item_dropdown &__body
+        +m
+            position: static
+            width: auto
+            margin: 0 -32px
+            padding: 0
+            border-radius: 0
+            box-shadow: none
+            background: none
+            visibility: visible
+            transform: translateY(0)
+            opacity: 1
+        +dark
+            background: $n1
+            box-shadow: 0px 10px 32px $n2
+            +m
+                box-shadow: none
+                background: none
+    &__item_language &__body
+        +dark
+            background: linear-gradient(92.98deg, #23262F 3.54%, rgba(35, 38, 47, 0.7) 93.38%)
+    &__item_notification &__body
+        position: absolute
+        top: calc(100% + 32px)
+        right: -136px
+        width: 354px
+        padding: 40px 32px 32px
+        border-radius: 24px
+        box-shadow: 0px 16px 64px -24px rgba(31, 47, 70, 0.4)
+        +w
+            right: -126px
+        +x
+            right: -96px
+        +m
+            top: 100%
+            left: 16px
+            right: 16px
+            width: auto
+            padding: 32px 24px
+        +dark
+            background: linear-gradient(92.98deg, #23262F 3.54%, rgba(35, 38, 47, 0.7) 93.38%)
+            +m
+                background: linear-gradient(92.98deg, #23262F 3.54%, rgba(35, 38, 47, 0.9) 93.38%)
+    &__item_user &__body
+        top: calc(100% + 32px)
+        right: -72px
+        +w
+            right: -62px
+        +x
+            right: -32px
+        +m
+            top: 100%
+            left: 16px
+            right: 16px
+            width: auto
+        +dark
+            background: $n1
+            box-shadow: 0px 10px 32px $n2
+    &__item[href]
+        margin-left: auto
+        +button-2
+        color: $n4
+        transition: color .2s
+        +t
+            display: none
+        +m
+            display: flex
+            align-items: center
+            margin: 0 -32px
+            padding: 0 32px
+            height: 64px
+            +poppins
+            font-size: 24px
+            font-weight: 600
+        &:hover,
+        &.active
+            color: $n2
+            +m
+                background: none
+                box-shadow: inset 2px 0 0 $p1
+            +dark
+                color: $n6
+                +m
+                    background: none
+                    color: $n6
+    &__link
+        display: flex
+        align-items: center
+        height: 48px
+        padding: 0 20px
+        border-radius: 24px
+        +button-2
+        color: $n4
+        transition: all .2s
+        .icon
+            width: 24px
+            height: 24px
+            margin-right: 12px
+            fill: $n4
+            transition: fill .2s
+        &:hover
+            color: $n2
+            .icon
+                fill: $n2
+            +dark
+                color: $n6
+                .icon
+                    fill: $n6
+        &.active
+            background: $n2
+            color: $n6
+            +dark
+                background: $n8
+                color: $n3
+            .icon
+                fill: $n6
+                +dark
+                    fill: $n3
+    &__item_dropdown &__link
+        +m
+            height: 64px
+            padding: 0 32px
+            border-radius: 0
+            +poppins
+            font-size: 24px
+            font-weight: 600
+        .icon
+            +m
+                display: none
+       
+        &.active
+            +m
+                background: none
+                box-shadow: inset 2px 0 0 $p1
+                color: $n2
+            +dark
+                +m
+                    background: none
+                    color: $n6
+    &__list
+        display: flex
+        flex-wrap: wrap
+        margin: -4px -2px 0
+    &__box
+        flex: 0 0 calc(50% - 4px)
+        width: calc(50% - 4px)
+        margin: 4px 2px 0
+        padding: 12px 20px
+        border-radius: 8px
+        transition: background .2s
+        &:hover,
+        &.active
+            background: $n7
+            +dark
+                background: $n1
+        &.active
+            .header__category
+                color: $n2
+                +dark
+                    color: $n6
+    &__category
+        +button-2
+        color: $n4
+        transition: color .2s
+        +dark
+            color: $n6
+    &__country
+        +caption-2
+        color: $n5
+    &__title
+        margin-bottom: 16px
+        +body-bold-1
+    &__notifications
+        margin: 0 -16px
+    &__notification
+        position: relative
+        display: flex
+        padding: 16px 40px 16px 16px
+        border-radius: 16px
+        transition: background .2s
+        &:hover
+            background: $n7
+            +dark
+                background: $n2
+    &__avatar
+        flex-shrink: 0
+        width: 48px
+        height: 48px
+        margin-right: 24px
+        +m
+            margin-right: 16px
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+            border-radius: 50%
+    &__details
+        flex-grow: 1
+    &__subtitle
+        +body-bold-2
+        color: $n1
+        +dark
+            color: $n8
+    &__content
+        color: $n3
+        +dark
+            color: $n6
+    &__date
+        +caption-2
+        color: $n4
+    &__status
+        position: absolute
+        top: 50%
+        right: 16px
+        transform: translateY(-50%)
+        width: 12px
+        height: 12px
+        border-radius: 50%
+    &__group
+        margin-bottom: 16px
+    &__menu
+        &:not(:last-child)
+            margin-bottom: 16px
+            padding-bottom: 16px
+            border-bottom: 1px solid $n6
+            +dark
+                border-color: $n3
+    &__btns
+        display: flex
+        margin: 0 -4px
+    &__btns &__button
+        flex: 0 0 calc(50% - 8px)
+        width: calc(50% - 8px)
+        margin: 0 4px
+    &__wrapper > &__button
+        margin-left: 40px
+        flex-shrink: 0 
+        +t
+            margin-left: 32px
+        +m
+            width: 100%
+            height: 48px
+            margin: auto 0 0
+        &.active
+            background: $n2
+            box-shadow: inset 0 0 0 2px $n2
+            color: $n8
+    &__item_notification,
+    &__item_user,
+    &__login
+        margin-left: 24px
+        +m
+            margin-left: 20px
+    &__login
+        display: none 
+        justify-content: center
+        align-items: center
+        width: 40px
+        height: 40px
+        border-radius: 50%
+        background: $p4
+        transition: background .2s
+        .icon
+            width: 24px
+            height: 24px
+            fill: $n8
+        &:hover
+            background: darken($p4, 8)
+    &__burger
+        display: none
+        +m
+            display: block
+            position: relative
+            z-index: 15
+            margin-left: 20px
+            width: 32px
+            height: 32px
+            background: none
+            -webkit-tap-highlight-color: rgba(0,0,0,0)
+            &.active
+                &:before
+                    transform: translateY(0) rotate(-45deg)
+                &:after
+                    transform: translateY(0) rotate(45deg)
+            &:before,
+            &:after
+                content: ''
+                position: absolute
+                top: 16px
+                left: 6px
+                width: 20px
+                height: 2px
+                background: $n4
+                border-radius: 2px
+                transition: transform .2s
+            &:before
+                transform: translateY(-4px)
+            &:after
+                transform: translateY(3px)
+    &_border
+        box-shadow: inset 0 -1px 0 0 $n6
+        +dark
+            box-shadow: inset 0 -1px 0 0 $n2
+    &_wide &__center
+        max-width: 100% 
+    &.authorization
+        .header__item_user
+            display: none 
+        .header__login
+            display: flex 

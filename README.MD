@@ -30,4 +30,3 @@ tut ty ispolzovala `.scss` format, no tut v moem `.sass`.
 4.
 tut main.html rabotaet normalno. no tut `portfolio.html` eto tvoy portfolio, i ne znau (maybe) tam putaut tvoih i iz style.css classes..
 zdes est odno header, i zachem tebe snova pisat tot zhe kod?!)
-
