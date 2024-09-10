@@ -1,0 +1,70 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  // font-size: 1.6rem;
+  color: $color-black;
+  font-family: Sofia Sans;
+  font-weight: 300;
+}
+
+.heading-primary {
+
+  &--footer{
+   font-size: 5rem;
+   line-height: 68.82px;
+   color: $color-white;
+   text-transform: uppercase;
+   padding: 10rem 5rem;
+   letter-spacing: 0.2rem;
+   font-weight: 100;
+   &__input{
+    color: $color-white;
+    font-size: 1.8rem;
+    }
+  }
+  &--art{
+    font-size: 20rem;
+    color:#4A4A4A;
+    letter-spacing: -0.3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+     
+
+
+  &--call {
+    font-size: 1.9rem;
+    line-height: 20.65px;
+    // @include respond(phone) {
+    //   letter-spacing: 1rem;
+    //   font-size: 5rem;
+    // }
+  }
+
+  &--logo {
+    font-size: 4rem;
+    line-height: 36.7px;
+    text-transform: uppercase;
+    margin-left:12px ;
+    // @include respond(phone) {
+    //   letter-spacing: 0.5rem;
+    // }
+  }
+  &--banner{
+    font-size: 11rem;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 200;
+  }
+}
+
+.heading-secondary {
+  font-size: 2.2rem;
+  color: #767676;
+  text-transform: uppercase;
+}
+.paragraph-primary{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}

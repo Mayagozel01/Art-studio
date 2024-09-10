@@ -1,0 +1,19 @@
+.banner{
+    padding-left: 3rem;
+    position: relative;
+    &__image{
+        top: -0.2rem;
+        z-index: -1;
+        position: relative;
+        width: 100%;
+    } 
+        img{
+        width: 100%;
+        }
+    &__heading{
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}

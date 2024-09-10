@@ -1,0 +1,212 @@
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.c-color-white {
+  color: #FFFFFF; }
+
+.text-medium {
+  font-size: 3.5  rem; }
+
+.d-flex {
+  display: flex; }
+
+.flex-col {
+  flex-direction: column; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #181818;
+  font-family: Sofia Sans;
+  font-weight: 300; }
+
+.heading-primary--footer {
+  font-size: 5rem;
+  line-height: 68.82px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 10rem 5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 100; }
+  .heading-primary--footer__input {
+    color: #FFFFFF;
+    font-size: 1.8rem; }
+
+.heading-primary--art {
+  font-size: 20rem;
+  color: #4A4A4A;
+  letter-spacing: -0.3rem;
+  text-transform: uppercase;
+  white-space: nowrap; }
+
+.heading-primary--call {
+  font-size: 1.9rem;
+  line-height: 20.65px; }
+
+.heading-primary--logo {
+  font-size: 4rem;
+  line-height: 36.7px;
+  text-transform: uppercase;
+  margin-left: 12px; }
+
+.heading-primary--banner {
+  font-size: 11rem;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 200; }
+
+.heading-secondary {
+  font-size: 2.2rem;
+  color: #767676;
+  text-transform: uppercase; }
+
+.paragraph-primary {
+  font-size: 1.8rem;
+  text-transform: uppercase; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding-top: 3rem; }
+
+.header {
+  height: 5vh;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5rem; }
+  .header__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .header__menu {
+    height: 3.5rem;
+    cursor: pointer; }
+
+.footer {
+  background-color: #181818;
+  position: relative;
+  padding: 2rem; }
+  .footer-inputs {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 0 4rem; }
+    .footer-inputs--consulation::after {
+      content: ' ';
+      height: 5px;
+      display: block;
+      z-index: 200;
+      width: 50%;
+      float: right;
+      border-bottom: 2px solid #FFFFFF; }
+  .footer-contact {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    .footer-contact--block {
+      width: 20%; }
+  .footer__ArtBuilding {
+    width: 100%;
+    margin: -2rem;
+    height: 30rem;
+    overflow: hidden; }
+  .footer .conf {
+    display: flex;
+    justify-content: center; }
+    .footer .conf > p {
+      margin-left: 2rem;
+      color: #767676; }
+
+.logo {
+  display: flex;
+  flex-direction: row; }
+
+.rounded__btn {
+  width: 8rem;
+  height: 8rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #FFFFFF;
+  position: absolute;
+  z-index: 2; }
+  .rounded__btn--architect {
+    background-color: #5979A4;
+    left: 50rem;
+    top: 20rem; }
+  .rounded__btn--allprojects {
+    background-color: #181818;
+    left: 95rem; }
+  .rounded__btn--design {
+    background-color: #95634B;
+    left: 95rem;
+    top: 60rem; }
+  .rounded__btn--landshaft {
+    background-color: #616C65;
+    left: 75rem;
+    top: 90rem; }
+
+.myinput {
+  width: 25%; }
+  .myinput input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent; }
+    .myinput input::placeholder {
+      color: #FFFFFF;
+      font-family: Sofia Sans;
+      font-weight: 300;
+      text-transform: uppercase; }
+  .myinput::after {
+    content: ' ';
+    height: 5px;
+    display: block;
+    z-index: 200;
+    border-bottom: 1px solid #FFFFFF; }
+
+.banner {
+  padding-left: 3rem;
+  position: relative; }
+  .banner__image {
+    top: -0.2rem;
+    z-index: -1;
+    position: relative;
+    width: 100%; }
+  .banner img {
+    width: 100%; }
+  .banner__heading {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row; }

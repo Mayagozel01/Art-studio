@@ -1,0 +1,32 @@
+.rounded__btn{
+    width: 8rem;
+    height: 8rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: $color-white;
+    position: absolute;
+    z-index: 2;
+    &--architect{
+        background-color: #5979A4;
+        left: 50rem;
+        top:20rem;
+    }
+    &--allprojects{
+        background-color: $color-black;
+        left: 95rem;
+
+    }
+    &--design{
+        background-color: #95634B;
+        left: 95rem;
+        top:60rem;
+    }
+    &--landshaft{
+        background-color: #616C65;
+        left: 75rem;
+        top:90rem;
+    }
+}
