@@ -1,0 +1,14 @@
+{
+  "name": "artstudio",
+  "version": "1.0.0",
+  "description": "portfolio_page",
+  "main": "portfolio.js",
+  "scripts": {
+    "compile:sass": "node-sass src/style/app.sass css/portfolio.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
