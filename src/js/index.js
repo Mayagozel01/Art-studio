@@ -545,7 +545,7 @@ $(document).bind('keydown mousewheel', e => {
 		(a > 0 || 'down' == t[e.keyCode]) && Top(),
 		(a < 0 || 'up' == t[e.keyCode]) && Low())
 }),
-	sessionStorage.setItem('low', 0),
+sessionStorage.setItem('low', 0),
 	windowWidth >= 780 &&
 		($('#id__project').on('mouseup', function (e) {
 			if (

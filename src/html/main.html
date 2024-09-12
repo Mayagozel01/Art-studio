@@ -13,11 +13,11 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
 			rel="stylesheet"
 		/>
 		<link
-			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+			href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="../style/lib/style.css" />
@@ -29,84 +29,6 @@
 	<body class="body">
 		<div class="wrap">
 			<div data-include="layouts/header.html"></div>
-
-			<!-- <div w3-include-html="./layouts/header.html"></div> -->
-
-			<!-- <header class="header">
-				<div class="header-top">
-					<div class="header__menu-list-item">
-						<a href="">Заказать звонок</a>
-						<a class="mobile__content" href=""></a>
-					</div>
-					<div class="header__menu-list-item">
-						<a href="">AB STUDIO</a>
-					</div>
-					<div class="header__menu-list-item">
-						<button class="header__burger">
-							<span></span>
-							<span></span>
-						</button>
-					</div>
-				</div>
-				<div class="header__bottom">
-					<div class="header__bottom-left">
-						<div>
-							<a id="id__project" href="#architecture__after"
-								>индивидуальное <br />
-								проектирование</a
-							>
-							<a id="id__landscape" href="#landscape__after"
-								>ландшафтный <br />
-								дизайн</a
-							>
-							<a id="id__interior" href="#interior__after"
-								>дизайн <br />
-								интерьера
-							</a>
-							<a id="id__building" href="#building__after">строительство</a>
-						</div>
-						<div>
-							<a href="">о нас</a>
-							<a href="">новости</a>
-							<a id="id__footer" href="#footer">контакты</a>
-						</div>
-						<div class="social__mobile mobile__content">
-							<a href=""></a>
-							<div class="social__line"></div>
-							<a href=""></a>
-							<a href=""></a>
-						</div>
-					</div>
-					<div class="header__bottom-center"></div>
-					<div class="header__bottom-right desktop__content">
-						<div class="maps__column">
-							<span>контакты</span>
-							<div
-								class="map"
-								id="map"
-								style="width: 463px; height: 239px"
-							></div>
-						</div>
-						<div class="contact__column">
-							<a class="contact__link" href=""
-								>москва, <br />
-								ул. Большая Якиманка, 33/13с2
-							</a>
-							<a class="contact__link" href="+74951896813"
-								>+7 (495) 189-68-13</a
-							>
-							<a class="contact__link" href="">WhatsApp</a>
-							<a class="contact__link" href="">Telegram</a>
-							<a class="contact__link" href="">mail@mail.com</a>
-							<div class="header__social">
-								<a href=""></a>
-								<a href=""></a>
-								<a href=""></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header> -->
 			<main class="main active">
 				<div class="main__list">
 					<div class="main__list-item">
@@ -125,7 +47,7 @@
 					</div>
 				</div>
 			</main>
-			<section name="1" class="order section">
+			<section name="1" class="circel order section">
 				<div class="order__content">
 					<span>Индивидуальное проектирование: где </span>
 					<span>креативность встречает уникальность,</span>
@@ -133,7 +55,7 @@
 					<span>воплощением идеи</span>
 				</div>
 			</section>
-			<section name="2" class="architecture section">
+			<section name="2" class="circel architecture section">
 				<div class="architecture__line"></div>
 				<div class="section__content"></div>
 			</section>
@@ -833,11 +755,11 @@
 			referrerpolicy="no-referrer"
 		></script>
 		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
-			integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		></script>
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      ></script>
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"
 			integrity="sha512-judXDFLnOTJsUwd55lhbrX3uSoSQSOZR6vNrsll+4ViUFv+XOIr/xaIK96soMj6s5jVszd7I97a0H+WhgFwTEg=="
@@ -856,6 +778,7 @@
 			referrerpolicy="no-referrer"
 		></script>
 		<script src="../js/index.js"></script>
+		<script src="../js/animations/scroll_circle.js"></script>
 		<script src="../js/importer.js"></script>
 	</body>
 </html>

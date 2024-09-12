@@ -3132,9 +3132,9 @@ body {
 
 .main {
 	width: 100%;
+	height: 100vh;
 	position: fixed;
 	top: 0;
-	height: 100vh;
 }
 
 .main__list {
@@ -3199,6 +3199,7 @@ body {
 	height: 0;
 	background: url(../../img/dist/order-img.webp) bottom no-repeat;
 	background-size: 100% 100%;
+  	clip-path: circle(100% at 50% 50%);
 	display: flex;
 	flex-direction: column;
 	align-items: center;

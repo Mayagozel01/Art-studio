@@ -1,0 +1,41 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+
+.spacer {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+#container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  justify-items: center;
+}
+section {
+  height: 100vh;
+  grid-area: 1 / 1 / 2 / 2;
+  clip-path: circle(100% at 50% 50%);
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+section .inner {
+  max-width: 900px;
+}
+section:nth-child(even) {
+  background-color: yellow;
+}
