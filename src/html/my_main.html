@@ -17,19 +17,21 @@
 			rel="stylesheet"
 		/>
 		<link
-			href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
-			rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+		rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="../css/style.css" />
+		
+		<link rel="stylesheet" href="../css/my_style.css" />
+		<link rel="stylesheet" href="../css/scroll_vertical.css" />
 		<title>Atr Building</title>
 	</head>
 
 	
 
 	<body class="body">
-		<div class="wrap">
+		<div class="swipe-section">
 			<div data-include="layouts/header.html"></div>
-			<main class="main active">
+			<main class="main scroll_vertical_panel">
 				<div class="main__list">
 					<div class="main__list-item">
 						<div class="main__list-item-img element-animation"></div>
@@ -46,14 +48,16 @@
 						</p>
 					</div>
 				</div>
+				<!-- <h1>SECTION ONE</h1> -->
 			</main>
-			<section name="1" class="order section">
+			<section name="1" class="order section scroll_vertical_panel">
 				<div class="order__content">
 					<span>Индивидуальное проектирование: где </span>
 					<span>креативность встречает уникальность,</span>
 					<span>а архитектура становится персональным</span>
 					<span>воплощением идеи</span>
 				</div>
+				<!-- <h1>SECTION TWO</h1> -->
 			</section>
 			<section name="2" class="architecture section">
 				<div class="architecture__line"></div>
@@ -777,8 +781,8 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		></script>
-		<script src="../js/index.js"></script>
-		<script src="../js/animations/scroll_circle.js"></script>
+		<script src="../js/my_index.js"></script>
+		<script src="../js/animations/scroll_vertical.js"></script>
 		<script src="../js/importer.js"></script>
 	</body>
 </html>

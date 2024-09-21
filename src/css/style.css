@@ -188,7 +188,7 @@ body {
 
 .architecture {
 	width: 100%;
-	background: url(../../img/dist/art-4.webp) bottom no-repeat;
+	background: url(../img/dist/art-4.webp) bottom no-repeat;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -306,7 +306,7 @@ body {
 }
 
 .architecture__after-body-left {
-	background: url(../../img/dist/after__archit.png) center no-repeat;
+	background: url(../img/dist/after__archit.png) center no-repeat;
 	background-size: 100%;
 	max-width: 533px;
 	max-height: 299px;
@@ -376,7 +376,7 @@ body {
 	height: 143px;
 	flex-shrink: 0;
 	position: absolute;
-	background: url(../../img/dist/decoarchitleft.avif) center no-repeat;
+	background: url(../img/dist/decoarchitleft.avif) center no-repeat;
 	background-size: 100%;
 	bottom: 232px;
 	left: 455px;
@@ -406,7 +406,7 @@ body {
 	height: 206px;
 	flex-shrink: 0;
 	position: absolute;
-	background: url(../../img/dist/deco-2-lg\ 1.svg) center no-repeat;
+	background: url(../img/dist/deco-2-lg\ 1.svg) center no-repeat;
 	background-size: 100%;
 	bottom: 416px;
 	right: 533px;
@@ -526,7 +526,7 @@ body {
 	width: 795px;
 	height: 304px;
 	border-radius: 50%;
-	background: url(../../img/dist/Ellipse\ 20.png) center no-repeat;
+	background: url(../img/dist/Ellipse\ 20.png) center no-repeat;
 	background-size: 100%;
 	margin-top: 8px;
 	opacity: 0;
@@ -597,7 +597,7 @@ body {
 }
 
 .accordion__architecture .accordion__exit .cross {
-	background: url(../../img/dist/cross_ac.png) center no-repeat;
+	background: url(../img/dist/cross_ac.png) center no-repeat;
 	background-size: 100%;
 	width: 12px;
 	height: 12px;
@@ -764,7 +764,7 @@ body {
 }
 
 .bitOne .animate__block.animate {
-	background: url(../../img/dist/winner.png) center no-repeat;
+	background: url(../img/dist/winner.png) center no-repeat;
 	background-size: 100%;
 }
 
@@ -773,7 +773,7 @@ body {
 }
 
 .bitTwo .animate__block.animate {
-	background: url(../../img/dist/plan.png) center no-repeat;
+	background: url(../img/dist/plan.png) center no-repeat;
 	background-size: 100%;
 }
 
@@ -782,7 +782,7 @@ body {
 }
 
 .bitThree .animate__block.animate {
-	background: url(../../img/dist/bitpic.png) center no-repeat;
+	background: url(../img/dist/bitpic.png) center no-repeat;
 	background-size: 100%;
 }
 
@@ -791,7 +791,7 @@ body {
 }
 
 .bitFour .animate__block.animate {
-	background: url(../../img/dist/winner.png) center no-repeat;
+	background: url(../img/dist/winner.png) center no-repeat;
 	background-size: 100%;
 }
 
@@ -800,7 +800,7 @@ body {
 }
 
 .bitFive .animate__block.animate {
-	background: url(../../img/dist/plan.png) center no-repeat;
+	background: url(../img/dist/plan.png) center no-repeat;
 	background-size: 100%;
 }
 
@@ -809,7 +809,7 @@ body {
 }
 
 .bitSix .animate__block.animate {
-	background: url(../../img/dist/bitpic.png) center no-repeat;
+	background: url(../img/dist/bitpic.png) center no-repeat;
 	background-size: 100%;
 }
 
@@ -818,7 +818,7 @@ body {
 }
 
 .bitSeven .animate__block.animate {
-	background: url(../../img/dist/winner.png) center no-repeat;
+	background: url(../img/dist/winner.png) center no-repeat;
 	background-size: 100%;
 }
 
@@ -827,7 +827,7 @@ body {
 }
 
 .bitEight .animate__block.animate {
-	background: url(../../img/dist/plan.png) center no-repeat;
+	background: url(../img/dist/plan.png) center no-repeat;
 	background-size: 100%;
 }
 
@@ -1105,7 +1105,7 @@ body {
 
 .building {
 	width: 100%;
-	background: url(../../img/dist/H-072_Photo\ -\ 9.jpg) bottom no-repeat;
+	background: url(../img/dist/H-072_Photo\ -\ 9.jpg) bottom no-repeat;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -1243,7 +1243,7 @@ body {
 	position: absolute;
 	left: 335px;
 	top: 181px;
-	background: url(../../img/dist/section__img.png) center no-repeat;
+	background: url(../img/dist/section__img.png) center no-repeat;
 	background-size: 100%;
 	opacity: 0;
 	transition: all 1.5s ease;
@@ -1284,7 +1284,7 @@ body {
 .building__after-body .building__decor {
 	position: absolute;
 	width: 390px;
-	background: url(../../img/dist/building.png) center no-repeat;
+	background: url(../img/dist/building.png) center no-repeat;
 	height: 551px;
 	border-radius: 50%;
 	left: 534px;
@@ -1295,7 +1295,7 @@ body {
 
 .building__after-body .building__decor-top {
 	position: absolute;
-	background: url(../../img/dist/deco-1-xxl\ 1.png) center no-repeat;
+	background: url(../img/dist/deco-1-xxl\ 1.png) center no-repeat;
 	top: 0;
 	left: -60px;
 	width: 178px;
@@ -1306,7 +1306,7 @@ body {
 
 .building__after-body .building__decor-bottom {
 	position: absolute;
-	background: url(../../img/dist/deco-2-xxl\ 1.png) center no-repeat;
+	background: url(../img/dist/deco-2-xxl\ 1.png) center no-repeat;
 	bottom: 10px;
 	left: 265px;
 	width: 217px;
@@ -1499,7 +1499,7 @@ body {
 	width: 795px;
 	height: 304px;
 	border-radius: 50%;
-	background: url(../../img/dist/bui-ac.png) center no-repeat;
+	background: url(../img/dist/bui-ac.png) center no-repeat;
 	background-size: 100%;
 	margin-top: 31px;
 	opacity: 0;
@@ -1570,7 +1570,7 @@ body {
 }
 
 .accordion__building .accordion__exit .cross {
-	background: url(../../img/dist/cross_ac.png) center no-repeat;
+	background: url(../img/dist/cross_ac.png) center no-repeat;
 	background-size: 100%;
 	width: 12px;
 	height: 12px;
@@ -1796,7 +1796,7 @@ body {
 .footer__menu-social-list li:nth-child(1) a {
 	width: 40px;
 	height: 40px;
-	background: url(../../img/dist/Icon.svg) center no-repeat;
+	background: url(../img/dist/Icon.svg) center no-repeat;
 }
 
 .footer__menu-social-list li:nth-child(2) {
@@ -1808,7 +1808,7 @@ body {
 .footer__menu-social-list li:nth-child(2) a {
 	width: 40px;
 	height: 40px;
-	background: url(../../img/dist/mingcute_youtube-fill.svg) center no-repeat;
+	background: url(../img/dist/mingcute_youtube-fill.svg) center no-repeat;
 }
 
 .footer__menu-social-list li:nth-child(3) {
@@ -1820,7 +1820,7 @@ body {
 .footer__menu-social-list li:nth-child(3) a {
 	width: 40px;
 	height: 40px;
-	background: url(../../img/dist/oki.svg) center no-repeat;
+	background: url(../img/dist/oki.svg) center no-repeat;
 }
 
 .footer__copyright {
@@ -2092,21 +2092,21 @@ body {
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
-	background: url(../../img/dist/vk.svg) center no-repeat;
+	background: url(../img/dist/vk.svg) center no-repeat;
 }
 
 .header__bottom-right .contact__column .header__social a:nth-child(2) {
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
-	background: url(../../img/dist/yt.svg) center no-repeat;
+	background: url(../img/dist/yt.svg) center no-repeat;
 }
 
 .header__bottom-right .contact__column .header__social a:nth-child(3) {
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
-	background: url(../../img/dist/okihed.svg) center no-repeat;
+	background: url(../img/dist/okihed.svg) center no-repeat;
 }
 
 .header.white .header-top .header__menu-list-item a {
@@ -2136,7 +2136,7 @@ body {
 
 .interior {
 	width: 100%;
-	background: url(../../img/dist/photo-1602872030490-4a484a7b3ba6.png) bottom
+	background: url(../img/dist/photo-1602872030490-4a484a7b3ba6.png) bottom
 		no-repeat;
 	background-size: cover;
 	display: flex;
@@ -2271,7 +2271,7 @@ body {
 	position: absolute;
 	left: 335px;
 	top: 181px;
-	background: url(../../img/dist/section__img.png) center no-repeat;
+	background: url(../img/dist/section__img.png) center no-repeat;
 	background-size: 100%;
 	opacity: 0;
 	transition: all 1.5s ease;
@@ -2392,7 +2392,7 @@ body {
 	width: 555.4px;
 	height: 685px;
 	right: 86.6px;
-	background: url(../../img/dist/lamp.png) center no-repeat;
+	background: url(../img/dist/lamp.png) center no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
@@ -2501,7 +2501,7 @@ body {
 	width: 795px;
 	height: 304px;
 	border-radius: 50%;
-	background: url(../../img/dist/int-ac.png) center no-repeat;
+	background: url(../img/dist/int-ac.png) center no-repeat;
 	background-size: 100%;
 	margin-top: 8px;
 	opacity: 0;
@@ -2586,7 +2586,7 @@ body {
 }
 
 .accordion__interior .accordion__exit .cross {
-	background: url(../../img/dist/cross_ac.png) center no-repeat;
+	background: url(../img/dist/cross_ac.png) center no-repeat;
 	background-size: 100%;
 	width: 12px;
 	height: 12px;
@@ -2638,7 +2638,7 @@ body {
 
 .landscape {
 	width: 100%;
-	background: url(../../img/dist/lan.jpg) bottom no-repeat;
+	background: url(../img/dist/lan.jpg) bottom no-repeat;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -2843,7 +2843,7 @@ body {
 }
 
 .landscape__decor-top {
-	background: url(../../img/dist/top.png) center no-repeat;
+	background: url(../img/dist/top.png) center no-repeat;
 	background-size: 100%;
 	position: fixed;
 	top: -90px;
@@ -2856,7 +2856,7 @@ body {
 }
 
 .landscape__decor-bottom {
-	background: url(../../img/dist/bottom.png) center no-repeat;
+	background: url(../img/dist/bottom.png) center no-repeat;
 	background-size: 100%;
 	position: fixed;
 	width: 501px;
@@ -2870,7 +2870,7 @@ body {
 }
 
 .landscape__decor-left {
-	background: url(../../img/dist/left.png) center no-repeat;
+	background: url(../img/dist/left.png) center no-repeat;
 	background-size: 100%;
 	position: fixed;
 	width: 107px;
@@ -2883,7 +2883,7 @@ body {
 }
 
 .landscape__decor-right {
-	background: url(../../img/dist/right.png) center no-repeat;
+	background: url(../img/dist/right.png) center no-repeat;
 	background-size: 100%;
 	position: fixed;
 	width: 460px;
@@ -2995,7 +2995,7 @@ body {
 	width: 795px;
 	height: 304px;
 	border-radius: 50%;
-	background: url(../../img/dist/lan-ac.png) center no-repeat;
+	background: url(../img/dist/lan-ac.png) center no-repeat;
 	background-size: 100%;
 	margin-top: 31px;
 	opacity: 0;
@@ -3080,7 +3080,7 @@ body {
 }
 
 .accordion__landscape .accordion__exit .cross {
-	background: url(../../img/dist/cross_ac.png) center no-repeat;
+	background: url(../img/dist/cross_ac.png) center no-repeat;
 	background-size: 100%;
 	width: 12px;
 	height: 12px;
@@ -3150,7 +3150,7 @@ body {
 }
 
 .main__list-item-img {
-	background: url(../../img/dist/main-img.avif) center no-repeat;
+	background: url(../img/dist/main-img.avif) center no-repeat;
 	background-size: 100%;
 	width: 653px;
 	height: 100vh;
@@ -3197,7 +3197,7 @@ body {
 .order {
 	width: 100%;
 	height: 0;
-	background: url(../../img/dist/order-img.webp) bottom no-repeat;
+	background: url(../img/dist/order-img.webp) bottom no-repeat;
 	background-size: 100% 100%;
   	clip-path: circle(100% at 50% 50%);
 	display: flex;
@@ -3287,7 +3287,7 @@ body {
 	width: 812.875px;
 	height: 587.076px;
 	flex-shrink: 0;
-	background: url(../../img/dist/pic.png) center no-repeat;
+	background: url(../img/dist/pic.png) center no-repeat;
 	background-size: 100%;
 	position: relative;
 	transition: all 0.7s ease;
@@ -3406,7 +3406,7 @@ body {
 	width: 812.875px;
 	height: 587.076px;
 	flex-shrink: 0;
-	background: url(../../img/dist/pic.png) center no-repeat;
+	background: url(../img/dist/pic.png) center no-repeat;
 	background-size: 100%;
 	transition: all 0.7s ease;
 	position: relative;
@@ -3495,7 +3495,7 @@ body {
 	width: 812.875px;
 	height: 587.076px;
 	flex-shrink: 0;
-	background: url(../../img/dist/pic.png) center no-repeat;
+	background: url(../img/dist/pic.png) center no-repeat;
 	background-size: 100%;
 	transition: all 0.7s ease;
 	position: relative;
@@ -3584,7 +3584,7 @@ body {
 	width: 812.875px;
 	height: 587.076px;
 	flex-shrink: 0;
-	background: url(../../img/dist/pic.png) center no-repeat;
+	background: url(../img/dist/pic.png) center no-repeat;
 	background-size: 100%;
 	transition: all 0.7s ease;
 	position: relative;
@@ -3750,7 +3750,7 @@ a {
 }
 
 .sections__image {
-	background: url(../../img/dist/Rectangle\ 15.png) center no-repeat;
+	background: url(../img/dist/Rectangle\ 15.png) center no-repeat;
 	width: 1342px;
 	height: 661px;
 	flex-shrink: 0;
@@ -3882,7 +3882,7 @@ a {
 		justify-content: space-between;
 	}
 	.architecture__after-body-left {
-		background: url(../../img/dist/after__archit.webp) center no-repeat;
+		background: url(../img/dist/after__archit.webp) center no-repeat;
 		background-size: 100%;
 		width: 533rem;
 		height: 299rem;
@@ -3947,7 +3947,7 @@ a {
 		height: 143rem;
 		flex-shrink: 0;
 		position: absolute;
-		background: url(../../img/dist/decoarchitleft.avif) center no-repeat;
+		background: url(../img/dist/decoarchitleft.avif) center no-repeat;
 		background-size: 100%;
 		bottom: 232rem;
 		left: 455rem;
@@ -3972,7 +3972,7 @@ a {
 		height: 206rem;
 		flex-shrink: 0;
 		position: absolute;
-		background: url(../../img/dist/deco-2-lg\ 1.svg) center no-repeat;
+		background: url(../img/dist/deco-2-lg\ 1.svg) center no-repeat;
 		background-size: 100%;
 		bottom: 416rem;
 		right: 533rem;
@@ -3988,7 +3988,7 @@ a {
 	}
 	.architecture {
 		width: 100%;
-		background: url(../../img/dist/art-4.webp) bottom no-repeat;
+		background: url(../img/dist/art-4.webp) bottom no-repeat;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
@@ -4179,56 +4179,56 @@ a {
 		pointer-events: none;
 	}
 	.bitOne .animate__block.animate {
-		background: url(../../img/dist/winner.png) center no-repeat;
+		background: url(../img/dist/winner.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitTwo {
 		position: relative;
 	}
 	.bitTwo .animate__block.animate {
-		background: url(../../img/dist/plan.png) center no-repeat;
+		background: url(../img/dist/plan.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitThree {
 		position: relative;
 	}
 	.bitThree .animate__block.animate {
-		background: url(../../img/dist/bitpic.png) center no-repeat;
+		background: url(../img/dist/bitpic.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitFour {
 		position: relative;
 	}
 	.bitFour .animate__block.animate {
-		background: url(../../img/dist/winner.png) center no-repeat;
+		background: url(../img/dist/winner.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitFive {
 		position: relative;
 	}
 	.bitFive .animate__block.animate {
-		background: url(../../img/dist/plan.png) center no-repeat;
+		background: url(../img/dist/plan.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitSix {
 		position: relative;
 	}
 	.bitSix .animate__block.animate {
-		background: url(../../img/dist/bitpic.png) center no-repeat;
+		background: url(../img/dist/bitpic.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitSeven {
 		position: relative;
 	}
 	.bitSeven .animate__block.animate {
-		background: url(../../img/dist/winner.png) center no-repeat;
+		background: url(../img/dist/winner.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitEight {
 		position: relative;
 	}
 	.bitEight .animate__block.animate {
-		background: url(../../img/dist/plan.png) center no-repeat;
+		background: url(../img/dist/plan.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitOne .span__top {
@@ -4499,7 +4499,7 @@ a {
 	.building__after-body .building__decor {
 		position: absolute;
 		width: 390rem;
-		background: url(../../img/dist/building.avif) center no-repeat;
+		background: url(../img/dist/building.avif) center no-repeat;
 		height: 551rem;
 		border-radius: 50%;
 		left: 534rem;
@@ -4509,7 +4509,7 @@ a {
 	}
 	.building__after-body .building__decor-top {
 		position: absolute;
-		background: url(../../img/dist/decobuild.avif) center no-repeat;
+		background: url(../img/dist/decobuild.avif) center no-repeat;
 		top: 0;
 		left: -60rem;
 		width: 178rem;
@@ -4519,7 +4519,7 @@ a {
 	}
 	.building__after-body .building__decor-bottom {
 		position: absolute;
-		background: url(../../img/dist/decobuilding.avif) center no-repeat;
+		background: url(../img/dist/decobuilding.avif) center no-repeat;
 		bottom: 10rem;
 		left: 265rem;
 		width: 217rem;
@@ -4602,7 +4602,7 @@ a {
 	}
 	.building {
 		width: 100%;
-		background: url(../../img/dist/H-072_Photo\ -\ 9.webp) bottom no-repeat;
+		background: url(../img/dist/H-072_Photo\ -\ 9.webp) bottom no-repeat;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
@@ -4720,7 +4720,7 @@ a {
 		position: absolute;
 		left: 335rem;
 		top: 181rem;
-		background: url(../../img/dist/sectionbuilding.webp) center no-repeat;
+		background: url(../img/dist/sectionbuilding.webp) center no-repeat;
 		background-size: 100%;
 	}
 	.footer {
@@ -4880,7 +4880,7 @@ a {
 	.footer__menu-social-list li:nth-child(1) a {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/Icon.svg) center no-repeat;
+		background: url(../img/dist/Icon.svg) center no-repeat;
 		background-size: cover;
 	}
 	.footer__menu-social-list li:nth-child(2) {
@@ -4891,7 +4891,7 @@ a {
 	.footer__menu-social-list li:nth-child(2) a {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/mingcute_youtube-fill.svg) center no-repeat;
+		background: url(../img/dist/mingcute_youtube-fill.svg) center no-repeat;
 		background-size: cover;
 	}
 	.footer__menu-social-list li:nth-child(3) {
@@ -4902,7 +4902,7 @@ a {
 	.footer__menu-social-list li:nth-child(3) a {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/oki.svg) center no-repeat;
+		background: url(../img/dist/oki.svg) center no-repeat;
 		background-size: cover;
 	}
 	.footer__copyright {
@@ -5141,19 +5141,19 @@ a {
 	.header__bottom-right .contact__column .header__social a:nth-child(1) {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/vk.svg) center no-repeat;
+		background: url(../img/dist/vk.svg) center no-repeat;
 		background-size: cover;
 	}
 	.header__bottom-right .contact__column .header__social a:nth-child(2) {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/yt.svg) center no-repeat;
+		background: url(../img/dist/yt.svg) center no-repeat;
 		background-size: cover;
 	}
 	.header__bottom-right .contact__column .header__social a:nth-child(3) {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/okihed.svg) center no-repeat;
+		background: url(../img/dist/okihed.svg) center no-repeat;
 		background-size: cover;
 	}
 	.header.white .header-top .header__menu-list-item a {
@@ -5265,7 +5265,7 @@ a {
 		width: 555.4rem;
 		height: 685rem;
 		right: 86.6rem;
-		background: url(../../img/dist/lamp.png) center no-repeat;
+		background: url(../img/dist/lamp.png) center no-repeat;
 		background-size: 100%;
 		opacity: 0;
 	}
@@ -5274,7 +5274,7 @@ a {
 	}
 	.interior {
 		width: 100%;
-		background: url(../../img/dist/photo-1602872030490-4a484a7b3ba6.webp) bottom
+		background: url(../img/dist/photo-1602872030490-4a484a7b3ba6.webp) bottom
 			no-repeat;
 		background-size: cover;
 		display: flex;
@@ -5390,7 +5390,7 @@ a {
 		position: absolute;
 		left: 335rem;
 		top: 181rem;
-		background: url(../../img/dist/sectionsint.webp) center no-repeat;
+		background: url(../img/dist/sectionsint.webp) center no-repeat;
 		background-size: 100%;
 	}
 	.landscape__after {
@@ -5481,7 +5481,7 @@ a {
 		transform: translate(0, 0);
 	}
 	.landscape__decor-top {
-		background: url(../../img/dist/top.png) center no-repeat;
+		background: url(../img/dist/top.png) center no-repeat;
 		background-size: 100%;
 		position: fixed;
 		top: -90rem;
@@ -5493,7 +5493,7 @@ a {
 		transition: all 0s ease;
 	}
 	.landscape__decor-bottom {
-		background: url(../../img/dist/bottom.png) center no-repeat;
+		background: url(../img/dist/bottom.png) center no-repeat;
 		background-size: 100%;
 		position: fixed;
 		width: 501rem;
@@ -5506,7 +5506,7 @@ a {
 		transition: all 0s ease;
 	}
 	.landscape__decor-left {
-		background: url(../../img/dist/left.png) center no-repeat;
+		background: url(../img/dist/left.png) center no-repeat;
 		background-size: 100%;
 		position: fixed;
 		width: 107rem;
@@ -5518,7 +5518,7 @@ a {
 		transition: all 0s ease;
 	}
 	.landscape__decor-right {
-		background: url(../../img/dist/right.png) center no-repeat;
+		background: url(../img/dist/right.png) center no-repeat;
 		background-size: 100%;
 		position: fixed;
 		width: 460rem;
@@ -5531,7 +5531,7 @@ a {
 	}
 	.landscape {
 		width: 100%;
-		background: url(../../img/dist/landnew.webp) bottom no-repeat;
+		background: url(../img/dist/landnew.webp) bottom no-repeat;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
@@ -5641,7 +5641,7 @@ a {
 		overflow: hidden;
 	}
 	.main__list-item-img {
-		background: url(../../img/dist/main-img.webp) center no-repeat;
+		background: url(../img/dist/main-img.webp) center no-repeat;
 		background-size: cover;
 		width: 653rem;
 		height: 100vh;
@@ -5684,7 +5684,7 @@ a {
 	.order {
 		width: 100%;
 		height: 0;
-		background: url(../../img/dist/order-img.webp) bottom no-repeat;
+		background: url(../img/dist/order-img.webp) bottom no-repeat;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
@@ -5762,7 +5762,7 @@ a {
 		width: 812.875rem;
 		height: 587.076rem;
 		flex-shrink: 0;
-		background: url(../../img/dist/pic.webp) center no-repeat;
+		background: url(../img/dist/pic.webp) center no-repeat;
 		background-size: 100%;
 		transition: all 0.7s ease;
 	}
@@ -5864,7 +5864,7 @@ a {
 		width: 812.875rem;
 		height: 587.076rem;
 		flex-shrink: 0;
-		background: url(../../img/dist/pic.webp) center no-repeat;
+		background: url(../img/dist/pic.webp) center no-repeat;
 		background-size: 100%;
 		transition: all 0.7s ease;
 	}
@@ -5966,7 +5966,7 @@ a {
 		width: 812.875rem;
 		height: 587.076rem;
 		flex-shrink: 0;
-		background: url(../../img/dist/pic.webp) center no-repeat;
+		background: url(../img/dist/pic.webp) center no-repeat;
 		background-size: 100%;
 		transition: all 0.7s ease;
 	}
@@ -6068,7 +6068,7 @@ a {
 		width: 812.875rem;
 		height: 587.076rem;
 		flex-shrink: 0;
-		background: url(../../img/dist/pic.webp) center no-repeat;
+		background: url(../img/dist/pic.webp) center no-repeat;
 		background-size: 100%;
 		position: relative;
 		transition: all 0.7s ease;
@@ -6157,7 +6157,7 @@ a {
 		z-index: 400;
 	}
 	.sections__image {
-		background: url(../../img/dist/bitbig.webp) center no-repeat;
+		background: url(../img/dist/bitbig.webp) center no-repeat;
 		width: 1342rem;
 		height: 661rem;
 		flex-shrink: 0;
@@ -6319,7 +6319,7 @@ a {
 		width: 795rem;
 		height: 304rem;
 		border-radius: 50%;
-		background: url(../../img/dist/Ellipse\ 20.png) center no-repeat;
+		background: url(../img/dist/Ellipse\ 20.png) center no-repeat;
 		background-size: 100%;
 		margin-top: 8rem;
 		opacity: 0;
@@ -6382,7 +6382,7 @@ a {
 		cursor: pointer;
 	}
 	.accordion__architecture .accordion__exit .cross {
-		background: url(../../img/dist/cross_ac.png) center no-repeat;
+		background: url(../img/dist/cross_ac.png) center no-repeat;
 		background-size: 100%;
 		width: 12rem;
 		height: 12rem;
@@ -6514,7 +6514,7 @@ a {
 		width: 795rem;
 		height: 304rem;
 		border-radius: 50%;
-		background: url(../../img/dist/bui-ac.png) center no-repeat;
+		background: url(../img/dist/bui-ac.png) center no-repeat;
 		background-size: 100%;
 		margin-top: 31rem;
 		opacity: 0;
@@ -6577,7 +6577,7 @@ a {
 		cursor: pointer;
 	}
 	.accordion__building .accordion__exit .cross {
-		background: url(../../img/dist/cross_ac.png) center no-repeat;
+		background: url(../img/dist/cross_ac.png) center no-repeat;
 		background-size: 100%;
 		width: 12rem;
 		height: 12rem;
@@ -6712,7 +6712,7 @@ a {
 		width: 795rem;
 		height: 304rem;
 		border-radius: 50%;
-		background: url(../../img/dist/int-ac.png) center no-repeat;
+		background: url(../img/dist/int-ac.png) center no-repeat;
 		background-size: 100%;
 		margin-top: 8rem;
 		opacity: 0;
@@ -6787,7 +6787,7 @@ a {
 		cursor: pointer;
 	}
 	.accordion__interior .accordion__exit .cross {
-		background: url(../../img/dist/cross_ac.png) center no-repeat;
+		background: url(../img/dist/cross_ac.png) center no-repeat;
 		background-size: 100%;
 		width: 12rem;
 		height: 12rem;
@@ -6922,7 +6922,7 @@ a {
 		width: 795rem;
 		height: 304rem;
 		border-radius: 50%;
-		background: url(../../img/dist/lan-ac.png) center no-repeat;
+		background: url(../img/dist/lan-ac.png) center no-repeat;
 		background-size: 100%;
 		margin-top: 31rem;
 		opacity: 0;
@@ -6997,7 +6997,7 @@ a {
 		cursor: pointer;
 	}
 	.accordion__landscape .accordion__exit .cross {
-		background: url(../../img/dist/cross_ac.png) center no-repeat;
+		background: url(../img/dist/cross_ac.png) center no-repeat;
 		background-size: 100%;
 		width: 12rem;
 		height: 12rem;
@@ -7101,7 +7101,7 @@ a {
 		flex-direction: column;
 	}
 	.architecture__after-body-left {
-		background: url(../../img/dist/after__archit.png) center no-repeat;
+		background: url(../img/dist/after__archit.png) center no-repeat;
 		background-size: 100% 100%;
 		width: 358rem;
 		height: 267rem;
@@ -7175,7 +7175,7 @@ a {
 		height: 113rem;
 		flex-shrink: 0;
 		position: absolute;
-		background: url(../../img/dist/decoarchitleft.avif) center no-repeat;
+		background: url(../img/dist/decoarchitleft.avif) center no-repeat;
 		background-size: 100%;
 		top: 72rem;
 		left: 245rem;
@@ -7201,7 +7201,7 @@ a {
 		height: 106rem;
 		flex-shrink: 0;
 		position: absolute;
-		background: url(../../img/dist/deco-2-lg\ 1.svg) center no-repeat;
+		background: url(../img/dist/deco-2-lg\ 1.svg) center no-repeat;
 		background-size: 100%;
 		top: 2056rem;
 		left: 33rem;
@@ -7219,7 +7219,7 @@ a {
 	.architecture {
 		width: 100%;
 		height: 674rem;
-		background: url(../../img/dist/art-4.webp) left no-repeat;
+		background: url(../img/dist/art-4.webp) left no-repeat;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
@@ -7395,56 +7395,56 @@ a {
 		pointer-events: none;
 	}
 	.bitOne .animate__block.animate {
-		background: url(../../img/dist/winner.png) center no-repeat;
+		background: url(../img/dist/winner.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitTwo {
 		position: relative;
 	}
 	.bitTwo .animate__block.animate {
-		background: url(../../img/dist/plan.png) center no-repeat;
+		background: url(../img/dist/plan.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitThree {
 		position: relative;
 	}
 	.bitThree .animate__block.animate {
-		background: url(../../img/dist/bitpic.png) center no-repeat;
+		background: url(../img/dist/bitpic.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitFour {
 		position: relative;
 	}
 	.bitFour .animate__block.animate {
-		background: url(../../img/dist/winner.png) center no-repeat;
+		background: url(../img/dist/winner.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitFive {
 		position: relative;
 	}
 	.bitFive .animate__block.animate {
-		background: url(../../img/dist/plan.png) center no-repeat;
+		background: url(../img/dist/plan.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitSix {
 		position: relative;
 	}
 	.bitSix .animate__block.animate {
-		background: url(../../img/dist/bitpic.png) center no-repeat;
+		background: url(../img/dist/bitpic.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitSeven {
 		position: relative;
 	}
 	.bitSeven .animate__block.animate {
-		background: url(../../img/dist/winner.png) center no-repeat;
+		background: url(../img/dist/winner.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitEight {
 		position: relative;
 	}
 	.bitEight .animate__block.animate {
-		background: url(../../img/dist/plan.png) center no-repeat;
+		background: url(../img/dist/plan.png) center no-repeat;
 		background-size: 100%;
 	}
 	.bitOne .span__top {
@@ -7715,7 +7715,7 @@ a {
 	.building__after-body .building__after-body-mobile-img {
 		width: 358rem;
 		height: 400rem;
-		background: url(../../img/dist/bui-mob.jpg) center no-repeat;
+		background: url(../img/dist/bui-mob.jpg) center no-repeat;
 		margin-top: 32rem;
 		background-size: cover;
 	}
@@ -7729,7 +7729,7 @@ a {
 		display: none;
 		position: absolute;
 		width: 390rem;
-		background: url(../../img/dist/building.png) center no-repeat;
+		background: url(../img/dist/building.png) center no-repeat;
 		height: 551rem;
 		border-radius: 50%;
 		left: 534rem;
@@ -7739,7 +7739,7 @@ a {
 	}
 	.building__after-body .building__decor-top {
 		position: absolute;
-		background: url(../../img/dist/deco-1-xxl\ 1.png) center no-repeat;
+		background: url(../img/dist/deco-1-xxl\ 1.png) center no-repeat;
 		top: 0;
 		left: -60rem;
 		width: 178rem;
@@ -7749,7 +7749,7 @@ a {
 	}
 	.building__after-body .building__decor-bottom {
 		position: absolute;
-		background: url(../../img/dist/deco-2-xxl\ 1.png) center no-repeat;
+		background: url(../img/dist/deco-2-xxl\ 1.png) center no-repeat;
 		bottom: 10rem;
 		left: 265rem;
 		width: 217rem;
@@ -7834,7 +7834,7 @@ a {
 	}
 	.building {
 		width: 100%;
-		background: url(../../img/dist/H-072_Photo\ -\ 9.jpg) bottom no-repeat;
+		background: url(../img/dist/H-072_Photo\ -\ 9.jpg) bottom no-repeat;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
@@ -7945,7 +7945,7 @@ a {
 		position: absolute;
 		left: 67rem;
 		top: 66rem;
-		background: url(../../img/dist/sectionbuilding.webp) center no-repeat;
+		background: url(../img/dist/sectionbuilding.webp) center no-repeat;
 		background-size: 100%;
 	}
 	.footer {
@@ -8102,7 +8102,7 @@ a {
 	.footer__menu-social-list li:nth-child(1) a {
 		width: 32rem;
 		height: 32rem;
-		background: url(../../img/dist/Icon.svg) center no-repeat;
+		background: url(../img/dist/Icon.svg) center no-repeat;
 		background-size: cover;
 	}
 	.footer__menu-social-list li:nth-child(2) {
@@ -8113,7 +8113,7 @@ a {
 	.footer__menu-social-list li:nth-child(2) a {
 		width: 32rem;
 		height: 32rem;
-		background: url(../../img/dist/mingcute_youtube-fill.svg) center no-repeat;
+		background: url(../img/dist/mingcute_youtube-fill.svg) center no-repeat;
 		background-size: cover;
 	}
 	.footer__menu-social-list li:nth-child(3) {
@@ -8124,7 +8124,7 @@ a {
 	.footer__menu-social-list li:nth-child(3) a {
 		width: 32rem;
 		height: 32rem;
-		background: url(../../img/dist/oki.svg) center no-repeat;
+		background: url(../img/dist/oki.svg) center no-repeat;
 		background-size: cover;
 	}
 	.footer__copyright {
@@ -8250,7 +8250,7 @@ a {
 	}
 	.header .header-top div:nth-child(1) a:nth-child(2) {
 		display: flex;
-		background: url(../../img/dist/simple-line-icons_call-end.png) center no-repeat;
+		background: url(../img/dist/simple-line-icons_call-end.png) center no-repeat;
 		width: 24rem;
 		height: 24rem;
 		background-size: cover;
@@ -8344,7 +8344,7 @@ a {
 	}
 	.header__bottom-left div:nth-child(3) a:nth-child(1) {
 		display: flex;
-		background: url(../../img/dist/simple-line-icons_call-end.png) center no-repeat;
+		background: url(../img/dist/simple-line-icons_call-end.png) center no-repeat;
 		width: 40rem;
 		height: 40rem;
 		background-size: cover;
@@ -8356,14 +8356,14 @@ a {
 	}
 	.header__bottom-left div:nth-child(3) a:nth-child(3) {
 		display: flex;
-		background: url(../../img/dist/wts.png) center no-repeat;
+		background: url(../img/dist/wts.png) center no-repeat;
 		width: 40rem;
 		height: 40rem;
 		background-size: cover;
 	}
 	.header__bottom-left div:nth-child(3) a:nth-child(4) {
 		display: flex;
-		background: url(../../img/dist/teleg.png) center no-repeat;
+		background: url(../img/dist/teleg.png) center no-repeat;
 		width: 40rem;
 		height: 40rem;
 		background-size: cover;
@@ -8415,19 +8415,19 @@ a {
 	.header__bottom-right .contact__column .header__social a:nth-child(1) {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/vk.svg) center no-repeat;
+		background: url(../img/dist/vk.svg) center no-repeat;
 		background-size: cover;
 	}
 	.header__bottom-right .contact__column .header__social a:nth-child(2) {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/yt.svg) center no-repeat;
+		background: url(../img/dist/yt.svg) center no-repeat;
 		background-size: cover;
 	}
 	.header__bottom-right .contact__column .header__social a:nth-child(3) {
 		width: 40rem;
 		height: 40rem;
-		background: url(../../img/dist/okihed.svg) center no-repeat;
+		background: url(../img/dist/okihed.svg) center no-repeat;
 		background-size: cover;
 	}
 	.header.white .header-top .header__menu-list-item a {
@@ -8472,7 +8472,7 @@ a {
 	.interior__after-body .interior__after-body-mobile-img {
 		width: 358rem;
 		height: 312rem;
-		background: url(../../img/dist/int-mob.png) center no-repeat;
+		background: url(../img/dist/int-mob.png) center no-repeat;
 		background-size: 100% 100%;
 		margin-top: 32rem;
 	}
@@ -8556,7 +8556,7 @@ a {
 		width: 555.4rem;
 		height: 685rem;
 		right: 86.6rem;
-		background: url(../../img/dist/lamp.png) center no-repeat;
+		background: url(../img/dist/lamp.png) center no-repeat;
 		background-size: 100%;
 		opacity: 0;
 	}
@@ -8565,7 +8565,7 @@ a {
 	}
 	.interior {
 		width: 390rem;
-		background: url(../../img/dist/photo-1602872030490-4a484a7b3ba6.png) bottom
+		background: url(../img/dist/photo-1602872030490-4a484a7b3ba6.png) bottom
 			no-repeat;
 		background-size: cover;
 		display: flex;
@@ -8675,7 +8675,7 @@ a {
 		position: absolute;
 		left: 67rem;
 		top: 72rem;
-		background: url(../../img/dist/sectionsint.webp) center no-repeat;
+		background: url(../img/dist/sectionsint.webp) center no-repeat;
 		background-size: 100%;
 		opacity: 1;
 		transition: none;
@@ -8705,7 +8705,7 @@ a {
 		width: 358rem;
 		height: 424rem;
 		background-size: 100% 100%;
-		background: url(../../img/dist/landscape-mob.png) center no-repeat;
+		background: url(../img/dist/landscape-mob.png) center no-repeat;
 	}
 	.landscape__after-body-title {
 		color: #000;
@@ -8782,7 +8782,7 @@ a {
 		transform: translate(0, 0);
 	}
 	.landscape__decor-top {
-		background: url(../../img/dist/top.png) center no-repeat;
+		background: url(../img/dist/top.png) center no-repeat;
 		background-size: 100%;
 		position: fixed;
 		top: -90rem;
@@ -8794,7 +8794,7 @@ a {
 		transition: all 0s ease;
 	}
 	.landscape__decor-bottom {
-		background: url(../../img/dist/bottom.png) center no-repeat;
+		background: url(../img/dist/bottom.png) center no-repeat;
 		background-size: 100%;
 		position: fixed;
 		width: 501rem;
@@ -8807,7 +8807,7 @@ a {
 		transition: all 0s ease;
 	}
 	.landscape__decor-left {
-		background: url(../../img/dist/left.png) center no-repeat;
+		background: url(../img/dist/left.png) center no-repeat;
 		background-size: 100%;
 		position: fixed;
 		width: 107rem;
@@ -8819,7 +8819,7 @@ a {
 		transition: all 0s ease;
 	}
 	.landscape__decor-right {
-		background: url(../../img/dist/right.png) center no-repeat;
+		background: url(../img/dist/right.png) center no-repeat;
 		background-size: 100%;
 		position: fixed;
 		width: 460rem;
@@ -8833,7 +8833,7 @@ a {
 	.landscape {
 		width: 100%;
 		height: 674rem;
-		background: url(../../img/dist/landnew.webp) bottom no-repeat;
+		background: url(../img/dist/landnew.webp) bottom no-repeat;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
@@ -8935,7 +8935,7 @@ a {
 		overflow: hidden;
 	}
 	.main__list-item-img {
-		background: url(../../img/dist/main-mob.png) center no-repeat;
+		background: url(../img/dist/main-mob.png) center no-repeat;
 		background-size: 100%;
 		width: 390rem;
 		height: 409rem;
@@ -8981,7 +8981,7 @@ a {
 		display: none;
 		width: 100%;
 		height: 0;
-		background: url(../../img/dist/order-img.png) bottom no-repeat;
+		background: url(../img/dist/order-img.png) bottom no-repeat;
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
@@ -9060,7 +9060,7 @@ a {
 		width: 812.875rem;
 		height: 587.076rem;
 		flex-shrink: 0;
-		background: url(../../img/dist/pic.png) center no-repeat;
+		background: url(../img/dist/pic.png) center no-repeat;
 		background-size: 100%;
 		transition: all 0.7s ease;
 	}
@@ -9099,7 +9099,7 @@ a {
 		flex: 1 0 0;
 	}
 	.project__building .splide .splide__slide {
-		background: url(../../img/dist/pic.png) center no-repeat;
+		background: url(../img/dist/pic.png) center no-repeat;
 		width: 296rem !important;
 		height: 215rem !important;
 		background-size: cover;
@@ -9201,7 +9201,7 @@ a {
 		width: 812.875rem;
 		height: 587.076rem;
 		flex-shrink: 0;
-		background: url(../../img/dist/pic.png) center no-repeat;
+		background: url(../img/dist/pic.png) center no-repeat;
 		background-size: 100%;
 		transition: all 0.7s ease;
 	}
@@ -9240,7 +9240,7 @@ a {
 		flex: 1 0 0;
 	}
 	.project__interior .splide .splide__slide {
-		background: url(../../img/dist/pic.png) center no-repeat;
+		background: url(../img/dist/pic.png) center no-repeat;
 		width: 296rem !important;
 		height: 215rem !important;
 		background-size: cover;
@@ -9342,7 +9342,7 @@ a {
 		width: 812.875rem;
 		height: 587.076rem;
 		flex-shrink: 0;
-		background: url(../../img/dist/pic.png) center no-repeat;
+		background: url(../img/dist/pic.png) center no-repeat;
 		background-size: 100%;
 		transition: all 0.7s ease;
 	}
@@ -9381,7 +9381,7 @@ a {
 		flex: 1 0 0;
 	}
 	.project__landscape .splide .splide__slide {
-		background: url(../../img/dist/pic.png) center no-repeat;
+		background: url(../img/dist/pic.png) center no-repeat;
 		width: 296rem !important;
 		height: 215rem !important;
 		background-size: cover;
@@ -9483,7 +9483,7 @@ a {
 		width: 812.875rem;
 		height: 587.076rem;
 		flex-shrink: 0;
-		background: url(../../img/dist/pic.png) center no-repeat;
+		background: url(../img/dist/pic.png) center no-repeat;
 		background-size: 100%;
 		position: relative;
 		transition: all 0.7s ease;
@@ -9523,7 +9523,7 @@ a {
 		flex: 1 0 0;
 	}
 	.project .splide .splide__slide {
-		background: url(../../img/dist/pic.png) center no-repeat;
+		background: url(../img/dist/pic.png) center no-repeat;
 		width: 296rem !important;
 		height: 215rem !important;
 		background-size: cover;
@@ -9608,13 +9608,13 @@ a {
 		position: relative;
 		bottom: auto;
 		overflow: hidden;
-		background: url(../../img/dist/sec__mob-bac.png) center no-repeat;
+		background: url(../img/dist/sec__mob-bac.png) center no-repeat;
 		background-size: cover;
 		z-index: 400;
 	}
 	.sections__image {
 		display: none;
-		background: url(../../img/dist/Rectangle\ 15.png) center no-repeat;
+		background: url(../img/dist/Rectangle\ 15.png) center no-repeat;
 		width: 1342rem;
 		height: 661rem;
 		flex-shrink: 0;
@@ -9786,7 +9786,7 @@ a {
 		width: 326rem;
 		height: 118rem;
 		border-radius: 50%;
-		background: url(../../img/dist/Ellipse\ 20.png) center no-repeat;
+		background: url(../img/dist/Ellipse\ 20.png) center no-repeat;
 		background-size: cover;
 		margin-top: 32rem;
 		opacity: 0;
@@ -9849,7 +9849,7 @@ a {
 		cursor: pointer;
 	}
 	.accordion__architecture .accordion__exit .cross {
-		background: url(../../img/dist/cross_ac.png) center no-repeat;
+		background: url(../img/dist/cross_ac.png) center no-repeat;
 		background-size: 100%;
 		width: 12rem;
 		height: 12rem;
@@ -9988,7 +9988,7 @@ a {
 		width: 326rem;
 		height: 118rem;
 		border-radius: 50%;
-		background: url(../../img/dist/Ellipse\ 20.png) center no-repeat;
+		background: url(../img/dist/Ellipse\ 20.png) center no-repeat;
 		background-size: cover;
 		margin-top: 32rem;
 		opacity: 0;
@@ -10051,7 +10051,7 @@ a {
 		cursor: pointer;
 	}
 	.accordion__building .accordion__exit .cross {
-		background: url(../../img/dist/cross_ac.png) center no-repeat;
+		background: url(../img/dist/cross_ac.png) center no-repeat;
 		background-size: 100%;
 		width: 12rem;
 		height: 12rem;
@@ -10165,7 +10165,7 @@ a {
 		width: 326rem;
 		height: 118rem;
 		border-radius: 50%;
-		background: url(../../img/dist/Ellipse\ 20.png) center no-repeat;
+		background: url(../img/dist/Ellipse\ 20.png) center no-repeat;
 		background-size: cover;
 		margin-top: 32rem;
 		opacity: 0;
@@ -10241,7 +10241,7 @@ a {
 		cursor: pointer;
 	}
 	.accordion__interior .accordion__exit .cross {
-		background: url(../../img/dist/cross_ac.png) center no-repeat;
+		background: url(../img/dist/cross_ac.png) center no-repeat;
 		background-size: 100%;
 		width: 12rem;
 		height: 12rem;
@@ -10354,7 +10354,7 @@ a {
 		width: 326rem;
 		height: 118rem;
 		border-radius: 50%;
-		background: url(../../img/dist/Ellipse\ 20.png) center no-repeat;
+		background: url(../img/dist/Ellipse\ 20.png) center no-repeat;
 		background-size: cover;
 		margin-top: 32rem;
 		opacity: 0;
@@ -10429,7 +10429,7 @@ a {
 		cursor: pointer;
 	}
 	.accordion__landscape .accordion__exit .cross {
-		background: url(../../img/dist/cross_ac.png) center no-repeat;
+		background: url(../img/dist/cross_ac.png) center no-repeat;
 		background-size: 100%;
 		width: 12rem;
 		height: 12rem;
