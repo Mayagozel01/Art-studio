@@ -2,16 +2,16 @@ function testtest(){
 	scrollerOffset = document.querySelector(".scroll_vertical_panel").offsetHeight;
 	scrollerOffsetTop = scrollerOffset - window.innerHeight;
 	console.log(scrollerOffset)
-	document.addEventListener('scroll', ()=>{
-		scrollPosition = window.scrollY/100;
-		count = (scrollPosition / scrollerOffsetTop)*100;
-		unit = count*100;
-		unit = unit *(-1);
-		// console.log(unit);
+	// document.addEventListener('scroll', ()=>{
+	// 	scrollPosition = window.scrollY/100;
+	// 	count = (scrollPosition / scrollerOffsetTop)*100;
+	// 	unit = count*100;
+	// 	unit = unit *(-1);
+	// 	// console.log(unit);
 		
-		order = document.getElementById('order')
-		order.style.clipPath = 'circle('+unit+'%)';
-	})
+	// })
+	order = document.getElementById('order')
+	order.style.clipPath = 'circle(100%)';
 	
 	gsap.registerPlugin(ScrollTrigger);
 	
@@ -286,12 +286,11 @@ function testtest(){
 					$('.header').addClass('white')),
 				2 == NumberEvent &&
 					(
-					// 	$('.header').removeClass('black'),
-					// $('.header').addClass('white'),
-					// $('.architecture__title').removeClass('hidden'),
-					// $('.interior__title').addClass('hidden'),
-					// $('.landscape__title').addClass('hidden'),
-					// $('.building__title').addClass('hidden'),
+						$('.header').removeClass('black'),
+					$('.header').addClass('white'),
+					$('.interior__title').addClass('hidden'),
+					$('.landscape__title').addClass('hidden'),
+					$('.building__title').addClass('hidden'),
 					// $('.architecture').animate({ height: '100vh' }, 1e3),
 					// setTimeout(() => {
 					// 	$('.architecture__after').addClass('active')
@@ -302,12 +301,29 @@ function testtest(){
 					// setTimeout(() => {
 					// 	$('.architecture__title').addClass('bottom')
 					// }, 800)),
-
-
-					// $('.scroll_vertical_panel').animate({ clipPath: 'circle(100%)'}, 1500)
-					testtest()
+					
+					$('.scroll_circle_panel').addClass('animate')
 				)
 				3 == NumberEvent &&
+				(
+				// 	$('.header').removeClass('black'),
+				// $('.header').addClass('white'),
+				// $('.architecture__title').removeClass('hidden'),
+				// $('.interior__title').addClass('hidden'),
+				// $('.landscape__title').addClass('hidden'),
+				// $('.building__title').addClass('hidden'),
+				$('.architecture').animate({ height: '100vh' }, 1e3),
+				setTimeout(() => {
+					$('.architecture__after').addClass('active')
+				}, 1500),
+				setTimeout(() => {
+					$('.architecture__title').addClass('active')
+				}, 100),
+				setTimeout(() => {
+					$('.architecture__title').addClass('bottom')
+				}, 800)
+			),
+				4 == NumberEvent &&
 					($('.header').removeClass('white'),
 					$('.header').addClass('black'),
 					$('.architecture').addClass('after'),
