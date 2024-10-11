@@ -1,11 +1,11 @@
-console.clear();
+// console.clear();
 document.addEventListener("DOMContentLoaded", function (event) {
   const timeline = gsap.timeline({
     defaults: {
       ease: "none",
     },
     scrollTrigger: {
-      trigger: "#container",
+    //   trigger: ".wrap",
       pin: true,
       start: "top",
       end: "bottom",
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     },
   });
 const circles = gsap.utils.toArray('section.circle');
-console.log(circles)
+console.log("circlesss----------------", circles)
 circles.forEach(circle => {      
       timeline.from(circle, {
         clipPath: "circle(0% at 50% 50%)",

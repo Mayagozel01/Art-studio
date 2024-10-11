@@ -2,11 +2,14 @@ function onEntry(e) {
 	e.forEach(e => {
 		e.target.classList.add('element-show')
 	})
+	console.log("onEntry")
 }
 let options = { threshold: [0.5] },
 	observer = new IntersectionObserver(onEntry, options),
 	elements = document.querySelectorAll('.element-animation')
 for (let e of elements) observer.observe(e)
+
+
 let NumberEvent = 0,
 	WheelTop = $(window).height(),
 	wheel = !0,
@@ -17,10 +20,12 @@ $(window).on('resize', function (e) {
 	windowWidth = $(window).width()
 })
 const Low = () => {
+	console.log(NumberEvent);
 		NumberEvent <= 0 ? (NumberEvent = 0) : NumberEvent--,
 			sessionStorage.setItem('low', NumberEvent),
 			0 == NumberEvent &&
-				($('.order').removeClass('active'),
+				(
+				$('.order').removeClass('active'),
 				$('.header').removeClass('black'),
 				$('.header').removeClass('white')),
 			1 == NumberEvent &&
@@ -529,22 +534,23 @@ function init() {
 	}),
 		e.geoObjects.add(t)
 }
-$(document).bind('keydown mousewheel', e => {
-	const t = { 38: 'up', 40: 'down' },
-		a = e.originalEvent.deltaY
-	wheel &&
-		arrows &&
-		((wheel = !1),
-		setTimeout(() => {
-			wheel = windowWidth >= 780
-		}, delay),
-		(arrows = !1),
-		setTimeout(() => {
-			arrows = windowWidth >= 780
-		}, delay),
-		(a > 0 || 'down' == t[e.keyCode]) && Top(),
-		(a < 0 || 'up' == t[e.keyCode]) && Low())
-}),
+// $(document).bind('keydown mousewheel', e => {
+// 	console.log("4545454545")
+// 	const t = { 38: 'up', 40: 'down' },
+// 		a = e.originalEvent.deltaY
+// 	wheel &&
+// 		arrows &&
+// 		((wheel = !1),
+// 		setTimeout(() => {
+// 			wheel = windowWidth >= 780
+// 		}, delay),
+// 		(arrows = !1),
+// 		setTimeout(() => {
+// 			arrows = windowWidth >= 780
+// 		}, delay),
+// 		(a > 0 || 'down' == t[e.keyCode]) && Top(),
+// 		(a < 0 || 'up' == t[e.keyCode]) && Low())
+// }),
 sessionStorage.setItem('low', 0),
 	windowWidth >= 780 &&
 		($('#id__project').on('mouseup', function (e) {
@@ -1191,3 +1197,10 @@ var splide
 		pagination: !1,
 		arrows: !1,
 	})).mount()
+
+
+//maya 
+let architecture = document.getElementById('architecture'),
+    title = document.getElementById('title'),
+    mark = title.querySelector("span"),
+    dot = document.querySelector(".dot");
