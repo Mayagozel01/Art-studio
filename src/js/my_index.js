@@ -302,6 +302,8 @@ function testtest(){
 					// 	$('.architecture__title').addClass('bottom')
 					// }, 800)),
 					
+					$('.order').addClass('zoomer'),
+					// $('.order').animate({ zoom: '200%' }, 1e3),
 					$('.scroll_circle_panel').addClass('animate')
 				)
 				3 == NumberEvent &&
