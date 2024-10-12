@@ -85,6 +85,7 @@ function testtest(){
 					),
 					$('.architecture__after-decor-left').animate({ opacity: 0 }, 1e3),
 					$('.architecture__after-decor-right').animate({ opacity: 0 }, 1e3)),
+					$('.scroll_circle_panel').addClass('animate')
 				3 == NumberEvent &&
 					($('.header').addClass('black'),
 					$('.header').removeClass('white'),
@@ -307,6 +308,28 @@ function testtest(){
 					$('.scroll_circle_panel').addClass('animate')
 				)
 				3 == NumberEvent &&
+					(
+					// 	$('.header').removeClass('black'),
+					// $('.header').addClass('white'),
+					// $('.interior__title').addClass('hidden'),
+					// $('.landscape__title').addClass('hidden'),
+					// $('.building__title').addClass('hidden'),
+					$('.architecture').animate({ height: '100vh' }, 1e3),
+					setTimeout(() => {
+						$('.architecture__after').addClass('active')
+					}, 1500),
+					setTimeout(() => {
+						$('.architecture__title').addClass('active')
+					}, 100),
+					setTimeout(() => {
+						$('.architecture__title').addClass('bottom')
+					}, 800),
+					
+					$('.order').addClass('zoomer'),
+					// $('.order').animate({ zoom: '200%' }, 1e3),
+					$('.scroll_circle_panel').remove('animate')
+				)
+				5 == NumberEvent &&
 				(
 				// 	$('.header').removeClass('black'),
 				// $('.header').addClass('white'),
@@ -347,7 +370,7 @@ function testtest(){
 					$('.architecture__title').addClass('after'),
 					$('.architecture__after-decor-left').addClass('active'),
 					$('.architecture__after').addClass('show')),
-				NumberEvent >= 4 &&
+				NumberEvent >= 5 &&
 					NumberEvent < 7 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
@@ -1039,7 +1062,9 @@ function testtest(){
 				}, 1500))
 		}),
 		jQuery(function (e) {
+			console.log(e)
 			e(document).mouseup(function (t) {
+				console.log(t.target)
 				e('.architecture__after-body-right-button').is(t.target) ||
 				0 !== e('.architecture__after-body-right-button').has(t.target).length
 					? e('.accordion__exit').is(t.target) &&

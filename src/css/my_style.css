@@ -7181,6 +7181,7 @@ a {
 		position: absolute;
 		bottom: 57rem;
 		right: 57rem;
+		z-index: 10000;
 	}
 	.architecture__after-body-right-button .architecture__after-body-right-btn {
 		width: 52rem;
