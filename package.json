@@ -5,7 +5,7 @@
   "main": "portfolio.js",
   "scripts": {
     "compile:sass": "node-sass src/style/app.sass css/portfolio.css -w",
-    "compile:tester": "node-sass src/tester/scroll_circle/index.scss src/tester/scroll_circle/index.css -w"
+    "compile:tester": "node-sass src/tester/menu_img/index.scss src/tester/menu_img/index.css -w"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,181 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(0deg, #50ffd8, #ff80a2);
+}
+
+.gallery {
+    margin: 0px auto;
+    top: 150px;
+    width: 300px;
+    perspective: 900px;
+    position: relative;
+}
+
+#frames {
+    width: 44px;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg) rotateY(30deg) rotateZ(0deg) translate3d(230px, 70px, 0px);
+}
+
+.images {
+    transform-style: preserve-3d;
+    animation: spin 20s infinite linear;
+}
+
+.images div {
+    position: absolute;
+    background: url("../../img/dist/bui-mob.jpg");
+    border: solid rgb(145, 87, 0);
+    border-width: thin 0;
+    height: 320px;
+    width: 100px;
+    opacity: 1;
+}
+
+.images div:after {
+    content: '';
+    position: absolute;
+    width: 66px;
+    bottom: -40px;
+    box-shadow: 0px 20px 40px 10px rgba(0,0,0,.3);
+}
+
+.images div:nth-child(1) {
+    transform: rotateY(0deg) translateZ(400px);
+}
+.images div:nth-child(2) {
+    transform: rotateY(120deg) translateZ(400px);
+}
+.images div:nth-child(3) {
+    transform: rotateY(240deg) translateZ(400px);
+}
+
+.images .s {
+    background-position: 913px;
+    transform: rotateY(0deg);
+}
+
+.images .s1 {
+    background-position: 860px;
+    transform: rotateY(90deg);
+}
+
+.images .s2 {
+    background-position: 807px;
+    transform: rotateY(180deg);
+}
+
+.images .s3 {
+    background-position: 754px;
+    transform: rotateY(27deg);
+}
+/* 
+.images .s4 {
+    background-position: 701px;
+    transform: rotateY(36deg) translateZ(200px);
+} */
+
+/* .images .s5 {
+    background-position: 648px;
+    transform: rotateY(75deg) translateZ(200px);
+}
+
+.images .s6 {
+    background-position: 595px;
+    transform: rotateY(90deg) translateZ(200px);
+}
+
+.images .s7 {
+    background-position: 542px;
+    transform: rotateY(105deg) translateZ(200px);
+}
+
+.images .s8 {
+    background-position: 490px;
+    transform: rotateY(120deg) translateZ(200px);
+}
+
+.images .s9 {
+    background-position: 437px;
+    transform: rotateY(135deg) translateZ(200px);
+}
+
+.images .s10 {
+    background-position: 384px;
+    transform: rotateY(150deg) translateZ(200px);
+}
+
+.images .s11 {
+    background-position: 331px;
+    transform: rotateY(165deg) translateZ(200px);
+} */
+/* 
+.images .s12 {
+    background-position: 278px;
+    transform: rotateY(180deg) translateZ(200px);
+}
+
+.images .s13 {
+    background-position: 225px;
+    transform: rotateY(195deg) translateZ(200px);
+}
+
+.images .s14 {
+    background-position: 172px;
+    transform: rotateY(210deg) translateZ(200px);
+}
+
+.images .s15 {
+    background-position: 119px;
+    transform: rotateY(225deg) translateZ(200px);
+}
+
+.images .s16 {
+    background-position: 66px;
+    transform: rotateY(240deg) translateZ(200px);
+}
+
+.images .s17 {
+    background-position: 13px;
+    transform: rotateY(255deg) translateZ(200px);
+}
+
+.images .s18 {
+    background-position: -40px;
+    transform: rotateY(270deg) translateZ(200px);
+}
+
+.images .s19 {
+    background-position: -93px;
+    transform: rotateY(285deg) translateZ(200px);
+}
+
+.images .s20 {
+    background-position: -146px;
+    transform: rotateY(300deg) translateZ(200px);
+}
+
+.images .s21 {
+    background-position: -199px;
+    transform: rotateY(315deg) translateZ(200px);
+}
+
+.images .s22 {
+    background-position: -252px;
+    transform: rotateY(330deg) translateZ(200px);
+}
+
+.images .s23 {
+    background-position: -305px;
+    transform: rotateY(345deg) translateZ(200px);
+} */
+
+/* Animation for smooth rotating */
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+  }
