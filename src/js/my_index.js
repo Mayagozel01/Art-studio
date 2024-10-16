@@ -57,18 +57,27 @@ function testtest(){
 					$('.header').removeClass('black'),
 					$('.header').removeClass('white')),
 				1 == NumberEvent &&
-					($('.header').removeClass('black'),
-					$('.header').addClass('white'),
-					$('.architecture__title').removeClass('active'),
-					$('.architecture__title').removeClass('hidden'),
-					$('.interior__title').addClass('hidden'),
-					$('.landscape__title').addClass('hidden'),
-					$('.building__title').addClass('hidden'),
-					$('.architecture').removeClass('active'),
-					$('.architecture').animate({ height: '0' }, 1e3),
-					$('.architecture__after').removeClass('active'),
-					$('.architecture__title').removeClass('bottom')),
+					(
+						$('.order').removeClass('zoomer'),
+						$('.scroll_circle_panel').removeClass('animate')
+						
+					),
+				
 				2 == NumberEvent &&
+				(
+					$('.header').removeClass('black'),
+						$('.header').addClass('white'),
+						$('.architecture__title').removeClass('active'),
+						$('.architecture__title').removeClass('hidden'),
+						$('.interior__title').addClass('hidden'),
+						$('.landscape__title').addClass('hidden'),
+						$('.building__title').addClass('hidden'),
+						$('.architecture').removeClass('active'),
+						$('.architecture').animate({ height: '0' }, 1e3),
+						$('.architecture__after').removeClass('active'),
+						$('.architecture__title').removeClass('bottom')
+				)
+				3 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.architecture').removeClass('after'),
@@ -85,22 +94,22 @@ function testtest(){
 					),
 					$('.architecture__after-decor-left').animate({ opacity: 0 }, 1e3),
 					$('.architecture__after-decor-right').animate({ opacity: 0 }, 1e3)),
-					$('.scroll_circle_panel').addClass('animate')
-				3 == NumberEvent &&
+					
+				4 == NumberEvent &&
 					($('.header').addClass('black'),
 					$('.header').removeClass('white'),
 					$('.project').removeClass('active')),
-				4 == NumberEvent &&
+				5 == NumberEvent &&
 					($('.project__body').removeClass('firstScroll'),
 					$('.project__itemOne').removeClass('soft'),
 					$('.project__itemOne').addClass('main'),
 					$('.project__itemOne').next('.project__body-item').removeClass('main')),
-				5 == NumberEvent &&
+				6 == NumberEvent &&
 					($('.project__body').removeClass('SecondScroll'),
 					$('.project__itemTwo').removeClass('soft'),
 					$('.project__itemTwo').addClass('main'),
 					$('.project__itemTwo').next('.project__body-item').removeClass('main')),
-				6 == NumberEvent &&
+				7 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.interior').removeClass('active'),
@@ -112,7 +121,7 @@ function testtest(){
 					$('.interior__title').removeClass('active'),
 					$('.interior__title').removeClass('bottom'),
 					$('.interior__after').removeClass('active')),
-				7 == NumberEvent &&
+				8 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.interior').removeClass('after'),
@@ -128,26 +137,26 @@ function testtest(){
 					$('.interior__title').removeClass('after'),
 					$('.interior__after-decor').removeClass('active'),
 					$('.interior__after').removeClass('show')),
-				8 == NumberEvent && $('.interior__section').removeClass('active'),
-				9 == NumberEvent &&
+				9 == NumberEvent && $('.interior__section').removeClass('active'),
+				10 == NumberEvent &&
 					($('.header').addClass('black'),
 					$('.header').removeClass('white'),
 					$('.project__interior').removeClass('active')),
-				10 == NumberEvent &&
+				11 == NumberEvent &&
 					($('.project__interior-body').removeClass('firstScroll'),
 					$('.project__interior-itemOne').removeClass('softSlide'),
 					$('.project__interior-itemOne').addClass('mainSlide'),
 					$('.project__interior-itemOne')
 						.next('.project__interior-body-item')
 						.removeClass('mainSlide')),
-				11 == NumberEvent &&
+				12 == NumberEvent &&
 					($('.project__interior-body').removeClass('SecondScroll'),
 					$('.project__interior-itemTwo').removeClass('softSlide'),
 					$('.project__interior-itemTwo').addClass('mainSlide'),
 					$('.project__interior-itemTwo')
 						.next('.project__interior-body-item')
 						.removeClass('mainSlide')),
-				12 == NumberEvent &&
+				13 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.architecture__title').addClass('hidden'),
@@ -158,7 +167,7 @@ function testtest(){
 					$('.landscape__title').removeClass('active'),
 					$('.landscape__title').removeClass('bottom'),
 					$('.landscape__after').removeClass('active')),
-				13 == NumberEvent &&
+				14 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.landscape').removeClass('after'),
@@ -180,25 +189,25 @@ function testtest(){
 					$('.landscape__title').removeClass('after'),
 					$('.landscape__after-decor').removeClass('active'),
 					$('.landscape__after').removeClass('show')),
-				14 == NumberEvent &&
+				15 == NumberEvent &&
 					($('.header').addClass('black'),
 					$('.header').removeClass('white'),
 					$('.project__landscape').removeClass('active')),
-				15 == NumberEvent &&
+				16 == NumberEvent &&
 					($('.project__landscape-body').removeClass('firstScroll'),
 					$('.project__landscape-itemOne').removeClass('softSlide'),
 					$('.project__landscape-itemOne').addClass('mainSlide'),
 					$('.project__landscape-itemOne')
 						.next('.project__landscape-body-item')
 						.removeClass('mainSlide')),
-				16 == NumberEvent &&
+				17 == NumberEvent &&
 					($('.project__landscape-body').removeClass('SecondScroll'),
 					$('.project__landscape-itemTwo').removeClass('softSlide'),
 					$('.project__landscape-itemTwo').addClass('mainSlide'),
 					$('.project__landscape-itemTwo')
 						.next('.project__landscape-body-item')
 						.removeClass('mainSlide')),
-				17 == NumberEvent &&
+				18 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.building').removeClass('active'),
@@ -210,7 +219,7 @@ function testtest(){
 					$('.building__title').removeClass('active'),
 					$('.building__title').removeClass('bottom'),
 					$('.building__after').removeClass('active')),
-				18 == NumberEvent &&
+				19 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.building').removeClass('after'),
@@ -226,51 +235,51 @@ function testtest(){
 					$('.building__title').removeClass('after'),
 					$('.building__after-decor').removeClass('active'),
 					$('.building__after').removeClass('show')),
-				19 == NumberEvent && $('.building__section').removeClass('active'),
-				20 == NumberEvent &&
+				20 == NumberEvent && $('.building__section').removeClass('active'),
+				21 == NumberEvent &&
 					($('.header').addClass('black'),
 					$('.header').removeClass('white'),
 					$('.project__building').removeClass('active')),
-				21 == NumberEvent &&
+				22 == NumberEvent &&
 					($('.project__building-body').removeClass('firstScroll'),
 					$('.project__building-itemOne').removeClass('softSlide'),
 					$('.project__building-itemOne').addClass('mainSlide'),
 					$('.project__building-itemOne')
 						.next('.project__building-body-item')
 						.removeClass('mainSlide')),
-				22 == NumberEvent &&
+				24 == NumberEvent &&
 					($('.project__building-body').removeClass('SecondScroll'),
 					$('.project__building-itemTwo').removeClass('softSlide'),
 					$('.project__building-itemTwo').addClass('mainSlide'),
 					$('.project__building-itemTwo')
 						.next('.project__building-body-item')
 						.removeClass('mainSlide')),
-				23 == NumberEvent &&
+				24 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.sections').animate({ height: '0' }, 1e3),
 					$('.sections').removeClass('active'),
 					(delay = 2e3)),
-				NumberEvent >= 24 &&
-					NumberEvent <= 43 &&
+				NumberEvent >= 25 &&
+					NumberEvent <= 44 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					(WheelTop += 200),
 					console.log(WheelTop),
 					$('.sections__body').animate({ top: `${WheelTop}rem` }, 100)),
-				44 == NumberEvent &&
+				45 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.bit').removeClass('active'),
 					$('.bit').animate({ height: '0' }, 1e3),
 					(delay = 0)),
-				45 == NumberEvent &&
+				46 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.form').removeClass('active'),
 					$('.form').animate({ height: '0' }, 1e3),
 					(delay = 2e3)),
-				46 == NumberEvent &&
+				47 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.footer').removeClass('active'),
@@ -287,56 +296,17 @@ function testtest(){
 					$('.header').addClass('white')),
 				2 == NumberEvent &&
 					(
-						$('.header').removeClass('black'),
+					$('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.interior__title').addClass('hidden'),
 					$('.landscape__title').addClass('hidden'),
 					$('.building__title').addClass('hidden'),
-					// $('.architecture').animate({ height: '100vh' }, 1e3),
-					// setTimeout(() => {
-					// 	$('.architecture__after').addClass('active')
-					// }, 1500),
-					// setTimeout(() => {
-					// 	$('.architecture__title').addClass('active')
-					// }, 100),
-					// setTimeout(() => {
-					// 	$('.architecture__title').addClass('bottom')
-					// }, 800)),
 					
 					$('.order').addClass('zoomer'),
-					// $('.order').animate({ zoom: '200%' }, 1e3),
 					$('.scroll_circle_panel').addClass('animate')
 				)
 				3 == NumberEvent &&
-					(
-					// 	$('.header').removeClass('black'),
-					// $('.header').addClass('white'),
-					// $('.interior__title').addClass('hidden'),
-					// $('.landscape__title').addClass('hidden'),
-					// $('.building__title').addClass('hidden'),
-					$('.architecture').animate({ height: '100vh' }, 1e3),
-					setTimeout(() => {
-						$('.architecture__after').addClass('active')
-					}, 1500),
-					setTimeout(() => {
-						$('.architecture__title').addClass('active')
-					}, 100),
-					setTimeout(() => {
-						$('.architecture__title').addClass('bottom')
-					}, 800),
-					
-					$('.order').addClass('zoomer'),
-					// $('.order').animate({ zoom: '200%' }, 1e3),
-					$('.scroll_circle_panel').remove('animate')
-				)
-				5 == NumberEvent &&
 				(
-				// 	$('.header').removeClass('black'),
-				// $('.header').addClass('white'),
-				// $('.architecture__title').removeClass('hidden'),
-				// $('.interior__title').addClass('hidden'),
-				// $('.landscape__title').addClass('hidden'),
-				// $('.building__title').addClass('hidden'),
 				$('.architecture').animate({ height: '100vh' }, 1e3),
 				setTimeout(() => {
 					$('.architecture__after').addClass('active')
@@ -371,19 +341,19 @@ function testtest(){
 					$('.architecture__after-decor-left').addClass('active'),
 					$('.architecture__after').addClass('show')),
 				NumberEvent >= 5 &&
-					NumberEvent < 7 &&
+					NumberEvent < 8 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.project').addClass('active'),
-					5 == NumberEvent &&
+					6 == NumberEvent &&
 						($('.project__body').addClass('firstScroll'),
 						$('.project__itemOne').addClass('soft'),
 						$('.project__itemOne').next('.project__body-item').addClass('main')),
-					6 == NumberEvent &&
+					7 == NumberEvent &&
 						($('.project__body').addClass('SecondScroll'),
 						$('.project__itemTwo').addClass('soft'),
 						$('.project__itemTwo').next('.project__body-item').addClass('main'))),
-				7 == NumberEvent &&
+				8 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.interior').addClass('active'),
@@ -401,7 +371,7 @@ function testtest(){
 					setTimeout(() => {
 						$('.interior__after').addClass('active')
 					}, 1500)),
-				8 == NumberEvent &&
+				9 == NumberEvent &&
 					($('.header').addClass('black'),
 					$('.header').removeClass('white'),
 					$('.interior').addClass('after'),
@@ -422,25 +392,25 @@ function testtest(){
 					$('.interior__title').addClass('after'),
 					$('.interior__after-decor').addClass('active'),
 					$('.interior__after').addClass('show')),
-				9 == NumberEvent && $('.interior__section').addClass('active'),
-				NumberEvent >= 10 &&
-					NumberEvent < 13 &&
+				10 == NumberEvent && $('.interior__section').addClass('active'),
+				NumberEvent >= 11 &&
+					NumberEvent < 14 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.project__interior').addClass('active'),
-					11 == NumberEvent &&
+					12 == NumberEvent &&
 						($('.project__interior-body').addClass('firstScroll'),
 						$('.project__interior-itemOne').addClass('softSlide'),
 						$('.project__interior-itemOne')
 							.next('.project__interior-body-item')
 							.addClass('mainSlide')),
-					12 == NumberEvent &&
+					13 == NumberEvent &&
 						($('.project__interior-body').addClass('SecondScroll'),
 						$('.project__interior-itemTwo').addClass('softSlide'),
 						$('.project__interior-itemTwo')
 							.next('.project__interior-body-item')
 							.addClass('mainSlide'))),
-				13 == NumberEvent &&
+				14 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.architecture__title').addClass('hidden'),
@@ -457,7 +427,7 @@ function testtest(){
 					setTimeout(() => {
 						$('.landscape__after').addClass('active')
 					}, 1500)),
-				14 == NumberEvent &&
+				15 == NumberEvent &&
 					($('.header').addClass('black'),
 					$('.header').removeClass('white'),
 					$('.landscape').addClass('after'),
@@ -479,24 +449,24 @@ function testtest(){
 					$('.landscape__title').addClass('after'),
 					$('.landscape__after-decor').addClass('active'),
 					$('.landscape__after').addClass('show')),
-				NumberEvent >= 15 &&
-					NumberEvent < 18 &&
+				NumberEvent >= 16 &&
+					NumberEvent < 19 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.project__landscape').addClass('active'),
-					16 == NumberEvent &&
+					17 == NumberEvent &&
 						($('.project__landscape-body').addClass('firstScroll'),
 						$('.project__landscape-itemOne').addClass('softSlide'),
 						$('.project__landscape-itemOne')
 							.next('.project__landscape-body-item')
 							.addClass('mainSlide')),
-					17 == NumberEvent &&
+					18 == NumberEvent &&
 						($('.project__landscape-body').addClass('SecondScroll'),
 						$('.project__landscape-itemTwo').addClass('softSlide'),
 						$('.project__landscape-itemTwo')
 							.next('.project__landscape-body-item')
 							.addClass('mainSlide'))),
-				18 == NumberEvent &&
+				19 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.building').addClass('active'),
@@ -514,7 +484,7 @@ function testtest(){
 					setTimeout(() => {
 						$('.building__after').addClass('active')
 					}, 1500)),
-				19 == NumberEvent &&
+				20 == NumberEvent &&
 					($('.header').addClass('black'),
 					$('.header').removeClass('white'),
 					$('.building').addClass('after'),
@@ -535,50 +505,50 @@ function testtest(){
 					$('.building__title').addClass('after'),
 					$('.building__after-decor').addClass('active'),
 					$('.building__after').addClass('show')),
-				20 == NumberEvent && $('.building__section').addClass('active'),
-				NumberEvent >= 21 &&
-					NumberEvent < 24 &&
+				21 == NumberEvent && $('.building__section').addClass('active'),
+				NumberEvent >= 22 &&
+					NumberEvent < 25 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.project__building').addClass('active'),
-					22 == NumberEvent &&
+					23 == NumberEvent &&
 						($('.project__building-body').addClass('firstScroll'),
 						$('.project__building-itemOne').addClass('softSlide'),
 						$('.project__building-itemOne')
 							.next('.project__building-body-item')
 							.addClass('mainSlide')),
-					23 == NumberEvent &&
+					24 == NumberEvent &&
 						($('.project__building-body').addClass('SecondScroll'),
 						$('.project__building-itemTwo').addClass('softSlide'),
 						$('.project__building-itemTwo')
 							.next('.project__building-body-item')
 							.addClass('mainSlide')),
 					(delay = 2e3)),
-				24 == NumberEvent &&
+				25 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.sections').animate({ height: '100vh' }, 1e3),
 					$('.sections').addClass('active'),
 					(delay = 0)),
-				NumberEvent >= 25 &&
-					NumberEvent <= 44 &&
+				NumberEvent >= 26 &&
+					NumberEvent <= 45 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					(WheelTop -= 200),
 					console.log(WheelTop),
 					$('.sections__body').animate({ top: `${WheelTop}rem` }, 100),
-					44 == NumberEvent && (delay = 2e3)),
-				45 == NumberEvent &&
+					45 == NumberEvent && (delay = 2e3)),
+				46 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.bit').addClass('active'),
 					$('.bit').animate({ height: '100vh' }, 1e3)),
-				46 == NumberEvent &&
+				47 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.form').addClass('active'),
 					$('.form').animate({ height: '100vh' }, 1e3)),
-				47 == NumberEvent &&
+				48 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
 					$('.footer').addClass('active'),
