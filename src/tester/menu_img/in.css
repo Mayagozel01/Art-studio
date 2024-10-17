@@ -1,18 +1,18 @@
 body {
     height: 100vh;
-    background-image: linear-gradient(0deg, #50ffd8, #ff80a2);
+    background-image: linear-gradient(0deg, #0ce0b2, #6b001d);
 }
 
 .gallery {
     margin: 0px auto;
     top: 150px;
-    width: 300px;
+    width: 500px;
     perspective: 900px;
     position: relative;
 }
 
 #frames {
-    width: 44px;
+    width: 50px;
     transform-style: preserve-3d;
     transform: rotateX(-10deg) rotateY(30deg) rotateZ(0deg) translate3d(230px, 70px, 0px);
 }
@@ -22,14 +22,32 @@ body {
     animation: spin 20s infinite linear;
 }
 
-.images div {
+.images span {
+    transform-style: preserve-3d;
+    animation: spin 20s infinite linear;
+}
+
+.images span div {
     position: absolute;
-    background: url("../../img/dist/bui-mob.jpg");
     border: solid rgb(145, 87, 0);
     border-width: thin 0;
     height: 320px;
-    width: 100px;
-    opacity: 1;
+    width: 60px;
+    margin: 30px;
+}
+
+.images.one {
+    transform: rotateY(0deg) translateZ(330px);
+}
+.images.two {
+  transform: rotateY(180deg) translateZ(330px);
+}
+
+.images .one div {
+    background: url("../../img/dist/bui-mob.jpg");
+}
+.images .two div {
+    background: url("../../img/dist/landscape-mob.png");
 }
 
 .images div:after {
@@ -40,42 +58,32 @@ body {
     box-shadow: 0px 20px 40px 10px rgba(0,0,0,.3);
 }
 
-.images div:nth-child(1) {
-    transform: rotateY(0deg) translateZ(400px);
-}
-.images div:nth-child(2) {
-    transform: rotateY(120deg) translateZ(400px);
-}
-.images div:nth-child(3) {
-    transform: rotateY(240deg) translateZ(400px);
-}
-
-.images .s {
+.images span .s {
     background-position: 913px;
-    transform: rotateY(0deg);
+    transform: rotateY(0deg) translateZ(200px);
 }
 
-.images .s1 {
+.images  span .s1 {
     background-position: 860px;
-    transform: rotateY(90deg);
+    transform: rotateY(15deg) translateZ(200px);
 }
 
-.images .s2 {
+.images  span .s2 {
     background-position: 807px;
-    transform: rotateY(180deg);
+    transform: rotateY(30deg) translateZ(200px);
 }
-
-.images .s3 {
+ 
+.images  span .s3 {
     background-position: 754px;
-    transform: rotateY(27deg);
+    transform: rotateY(45deg) translateZ(200px);
 }
-/* 
+/*
 .images .s4 {
     background-position: 701px;
-    transform: rotateY(36deg) translateZ(200px);
-} */
+    transform: rotateY(60deg) translateZ(200px);
+}
 
-/* .images .s5 {
+.images .s5 {
     background-position: 648px;
     transform: rotateY(75deg) translateZ(200px);
 }
@@ -108,8 +116,8 @@ body {
 .images .s11 {
     background-position: 331px;
     transform: rotateY(165deg) translateZ(200px);
-} */
-/* 
+}
+
 .images .s12 {
     background-position: 278px;
     transform: rotateY(180deg) translateZ(200px);
@@ -148,27 +156,27 @@ body {
 .images .s19 {
     background-position: -93px;
     transform: rotateY(285deg) translateZ(200px);
-}
+}*/
 
-.images .s20 {
+.images span .s20 {
     background-position: -146px;
     transform: rotateY(300deg) translateZ(200px);
-}
+} 
 
-.images .s21 {
-    background-position: -199px;
+.images span .s21 {
+    background-position: 701px;
     transform: rotateY(315deg) translateZ(200px);
 }
 
-.images .s22 {
-    background-position: -252px;
+.images span .s22 {
+    background-position: 648px;
     transform: rotateY(330deg) translateZ(200px);
 }
 
-.images .s23 {
-    background-position: -305px;
+.images span .s23 {
+    background-position: 595px;
     transform: rotateY(345deg) translateZ(200px);
-} */
+}
 
 /* Animation for smooth rotating */
 @keyframes spin {
