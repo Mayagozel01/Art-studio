@@ -1,0 +1,55 @@
+.cylinder_content {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: 25%;
+    left: 25%; */
+    z-index: -1;
+}
+
+.cylinder_gallery {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotate 30s infinite linear;
+
+}
+
+.cylinder_images {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateX(30deg) rotateY(0deg);
+}
+  
+  .cylinder_images img {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); }
+  
+  .cylinder_images img:nth-child(1) {
+    transform: rotateY(0deg) translateZ(110px); }
+  
+  .cylinder_images img:nth-child(2) {
+    transform: rotateY(90deg) translateZ(110px); }
+  
+  .cylinder_images img:nth-child(3) {
+    transform: rotateY(180deg) translateZ(110px); }
+  
+  .cylinder_images img:nth-child(4) {
+    transform: rotateY(270deg) translateZ(110px); }
+  
+  /* Animation for smooth rotating */
+  @keyframes rotate {
+    from {
+      transform: rotateY(0deg); }
+    to {
+      transform: rotateY(360deg); } }
+  
