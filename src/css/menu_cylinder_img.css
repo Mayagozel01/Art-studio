@@ -1,11 +1,17 @@
 .cylinder_content {
     position:absolute;
-    display: flex;
     justify-content: center;
     align-items: center;
-    /* top: 25%;
-    left: 25%; */
+    top: 25%;
+    left: 25%;
     z-index: -1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.cylinder_content.active {
+  opacity: 1;
+  transition: all 1s;
 }
 
 .cylinder_gallery {
@@ -27,24 +33,24 @@
   
   .cylinder_images img {
     position: absolute;
-    width: 200px;
-    height: 400px;
+    width: 30vw;
+    height: 40vh;
     object-fit: cover;
-    border: 5px solid #fff;
+    border: 3px solid #fff;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); }
   
   .cylinder_images img:nth-child(1) {
-    transform: rotateY(0deg) translateZ(110px); }
+    transform: rotateY(0deg) translateZ(16vw); }
   
   .cylinder_images img:nth-child(2) {
-    transform: rotateY(90deg) translateZ(110px); }
+    transform: rotateY(90deg) translateZ(16vw); }
   
   .cylinder_images img:nth-child(3) {
-    transform: rotateY(180deg) translateZ(110px); }
+    transform: rotateY(180deg) translateZ(16vw); }
   
   .cylinder_images img:nth-child(4) {
-    transform: rotateY(270deg) translateZ(110px); }
+    transform: rotateY(270deg) translateZ(16vw); }
   
   /* Animation for smooth rotating */
   @keyframes rotate {

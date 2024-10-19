@@ -1,35 +1,3 @@
-function testtest(){
-	scrollerOffset = document.querySelector(".scroll_vertical_panel").offsetHeight;
-	scrollerOffsetTop = scrollerOffset - window.innerHeight;
-	console.log(scrollerOffset)
-	// document.addEventListener('scroll', ()=>{
-	// 	scrollPosition = window.scrollY/100;
-	// 	count = (scrollPosition / scrollerOffsetTop)*100;
-	// 	unit = count*100;
-	// 	unit = unit *(-1);
-	// 	// console.log(unit);
-		
-	// })
-	order = document.getElementById('order')
-	order.style.clipPath = 'circle(100%)';
-	
-	gsap.registerPlugin(ScrollTrigger);
-	
-	
-	let tween = gsap.fromTo(".architecture__title",
-	{ autoAlpha: 0,  yPercent: 50, color:'rgba(0,0,0,0.0)' }, 
-	{  yPercent: 0,autoAlpha: 1,   color:'#fff', duration: 1 ,
-	stagger:{
-		mount:0.5
-	}}
-	)
-	
-	ScrollTrigger.create({
-			trigger:".architecture",
-			toggleActions:"restart none none none",
-		animation:tween})
-}
-
 	function onEntry(e) {
 		e.forEach(e => {
 			e.target.classList.add('element-show')
@@ -662,17 +630,17 @@ function testtest(){
 			e(document).mouseup(function (t) {
 				e('.header__burger').is(t.target) ||
 				0 !== e('.header__burger').has(t.target).length
-					? e('.header__burger').is(t.target) || e('.header').hasClass('active')
-						? (e('.header').removeClass('active'),
+					? e('.header__burger').is(t.target) || e('.header').hasClass('active') || e('.cylinder_content').hasClass('active')
+						? (e('.header').removeClass('active'), e('.cylinder_content').removeClass('active'),
 						  (e('.header').hasClass('white') || e('.main').hasClass('active')) &&
 								e('.header').removeClass('black'))
-						: (e('.header').addClass('active'), e('.header').addClass('black'))
+						: (e('.header').addClass('active'), e('.cylinder_content').addClass('active'), e('.header').addClass('black'))
 					: e('.header').is(t.target) || 0 !== e('.header').has(t.target).length
 					? e('.header__burger').is(t.target) &&
 					  e('.header').hasClass('active') &&
-					  (e('.header').removeClass('active'),
+					  (e('.header').removeClass('active'), e('.cylinder_content').removeClass('active'),
 					  e('.header').hasClass('white') && e('.header').removeClass('black'))
-					: (e('.header').removeClass('active'),
+					: (e('.header').removeClass('active'), e('.cylinder_content').removeClass('active'),
 					  e('.header').hasClass('white') && e('.header').removeClass('black'))
 			})
 		}),
