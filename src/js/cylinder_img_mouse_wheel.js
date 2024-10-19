@@ -14,4 +14,5 @@ cylinder_gallery.addEventListener('mousemove', (e) => {
     rotationX = -mouseY * 180;
     
     cylinder_images.style.transform = `rotateX(${rotationX}deg) rotateY(${rotationY}deg)`;
+    cylinder_images.style.transition = `transform 2s`;
 });
