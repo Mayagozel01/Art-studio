@@ -28,13 +28,15 @@
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
-    transform: rotateX(30deg) rotateY(0deg);
+    transform: rotateX(-25deg) rotateY(0deg);
 }
   
   .cylinder_images img {
     position: absolute;
     width: 30vw;
     height: 40vh;
+    /* max-width: 400px;
+    max-height: 600px; */
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 10px;
@@ -58,4 +60,32 @@
       transform: rotateY(0deg); }
     to {
       transform: rotateY(360deg); } }
+
+@media (min-width: 1600px) {
+  .cylinder_images img:nth-child(1) {
+    transform: rotateY(0deg) translateZ(270px); }
+  
+  .cylinder_images img:nth-child(2) {
+    transform: rotateY(90deg) translateZ(270px); }
+  
+  .cylinder_images img:nth-child(3) {
+    transform: rotateY(180deg) translateZ(270px); }
+  
+  .cylinder_images img:nth-child(4) {
+    transform: rotateY(270deg) translateZ(270px); }
+}
+
+@media (min-width: 1920px) {
+  .cylinder_images img:nth-child(1) {
+    transform: rotateY(0deg) translateZ(400px); }
+  
+  .cylinder_images img:nth-child(2) {
+    transform: rotateY(90deg) translateZ(400px); }
+  
+  .cylinder_images img:nth-child(3) {
+    transform: rotateY(180deg) translateZ(400px); }
+  
+  .cylinder_images img:nth-child(4) {
+    transform: rotateY(270deg) translateZ(400px); }
+}
   
