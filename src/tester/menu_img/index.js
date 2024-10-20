@@ -1,5 +1,5 @@
-const gallery = document.querySelector('.gallery');
-const images = document.querySelector('.images');
+const gallery = document.querySelector('.cylinder_gallery');
+const images = document.querySelector('.cylinder_images');
 
 let mouseX = 0;
 let mouseY = 0;

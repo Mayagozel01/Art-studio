@@ -1932,7 +1932,7 @@ body {
 	position: fixed;
 	top: 0;
 	padding: 0 120px;
-	z-index: 999;
+	z-index: 100;
 	transition: all 1.5s ease;
 	overflow: hidden;
 }
