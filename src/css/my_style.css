@@ -37,7 +37,7 @@ body {
 	width: 100%;
 	font-size: 100%;
 	line-height: 1;
-	font-size: 14px;
+	/* font-size: 14px; */
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -3150,7 +3150,7 @@ body {
 }
 
 .main__list-item-img {
-	background: url(../img/dist/main-img.avif) center no-repeat;
+	background: url(../img/dist/main-img.webp) center no-repeat;
 	background-size: 100%;
 	width: 653px;
 	height: 100vh;
@@ -3718,7 +3718,7 @@ body {
 	width: 100%;
 	font-size: 100%;
 	line-height: 1;
-	font-size: 14px;
+	/* font-size: 14px; */
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;

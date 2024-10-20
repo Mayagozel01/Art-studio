@@ -1,0 +1,209 @@
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.c-color-white {
+  color: #fff; }
+
+.text-medium {
+  font-size: 3.5  rem; }
+
+.d-flex {
+  display: flex; }
+
+.flex-col {
+  flex-direction: column; }
+
+body {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #000;
+  font-family: Sofia Sans;
+  font-weight: 300; }
+
+.heading-primary--footer {
+  font-size: 5rem;
+  line-height: 68.82px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10rem 5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 100; }
+  .heading-primary--footer__input {
+    color: #fff;
+    font-size: 1.8rem; }
+
+.heading-primary--art {
+  font-size: 20rem;
+  color: #4A4A4A;
+  letter-spacing: -0.3rem;
+  text-transform: uppercase;
+  white-space: nowrap; }
+
+.heading-primary--call {
+  font-size: 1.9rem;
+  line-height: 20.65px; }
+
+.heading-primary--logo {
+  font-size: 4rem;
+  line-height: 36.7px;
+  text-transform: uppercase;
+  margin-left: 12px; }
+
+.heading-primary--banner {
+  font-size: 5rem;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 200; }
+
+.heading-secondary {
+  font-size: 2.2rem;
+  color: #767676;
+  text-transform: uppercase; }
+
+.paragraph-primary {
+  font-size: 1.8rem;
+  text-transform: uppercase; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+.navigation__checkbox {
+  display: none; }
+
+.navigation__nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80); }
+
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%; }
+
+.navigation__icon {
+  position: relative;
+  margin-top: 3.5rem; }
+  .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+    width: 3rem;
+    height: 2px;
+    background-color: #333;
+    display: inline-block; }
+  .navigation__icon::before, .navigation__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s; }
+  .navigation__icon::before {
+    top: -.8rem; }
+  .navigation__icon::after {
+    top: .8rem; }
+
+.navigation__button:hover .navigation__icon::before {
+  top: -1rem; }
+
+.navigation__button:hover .navigation__icon::after {
+  top: 1rem; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background-color: transparent; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  top: 0;
+  transform: rotate(135deg); }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  top: 0;
+  transform: rotate(-135deg); }
+
+.logo {
+  display: flex;
+  flex-direction: row; }
+
+.rounded__btn {
+  width: 20rem;
+  height: 20rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  z-index: 2; }
+  .rounded__btn--architect {
+    background-color: #5979A4;
+    left: 50rem;
+    top: 20rem; }
+  .rounded__btn--allprojects {
+    background-color: #000;
+    left: 85rem; }
+  .rounded__btn--design {
+    background-color: #95634B;
+    left: 85rem;
+    top: 60rem; }
+  .rounded__btn--landshaft {
+    background-color: #616C65;
+    left: 75rem;
+    top: 90rem; }
+
+.myinput {
+  width: 25%; }
+  .myinput input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent; }
+    .myinput input::placeholder {
+      color: #fff;
+      font-family: Sofia Sans;
+      font-weight: 300;
+      text-transform: uppercase; }
+  .myinput::after {
+    content: ' ';
+    height: 5px;
+    display: block;
+    z-index: 200;
+    border-bottom: 1px solid #fff; }
+
+.banner {
+  padding-left: 1rem;
+  position: relative; }
+  .banner__image {
+    top: -5rem;
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .banner__image img {
+      width: 100%; }
+    .banner__image__heading {
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: row; }
