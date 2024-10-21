@@ -7,7 +7,7 @@
 		observer = new IntersectionObserver(onEntry, options),
 		elements = document.querySelectorAll('.element-animation')
 	for (let e of elements) observer.observe(e)
-	let NumberEvent = 0,
+	let NumberEvent = 4,
 		WheelTop = $(window).height(),
 		wheel = !0,
 		delay = 1500,
@@ -312,15 +312,16 @@
 					NumberEvent < 8 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
-					$('.project').addClass('active'),
-					6 == NumberEvent &&
-						($('.project__body').addClass('firstScroll'),
-						$('.project__itemOne').addClass('soft'),
-						$('.project__itemOne').next('.project__body-item').addClass('main')),
-					7 == NumberEvent &&
-						($('.project__body').addClass('SecondScroll'),
-						$('.project__itemTwo').addClass('soft'),
-						$('.project__itemTwo').next('.project__body-item').addClass('main'))),
+					$('.project').addClass('active')
+					// 6 == NumberEvent &&
+					// 	($('.project__body').addClass('firstScroll'),
+					// 	$('.project__itemOne').addClass('soft'),
+					// 	$('.project__itemOne').next('.project__body-item').addClass('main')),
+					// 7 == NumberEvent &&
+					// 	($('.project__body').addClass('SecondScroll'),
+					// 	$('.project__itemTwo').addClass('soft'),
+					// 	$('.project__itemTwo').next('.project__body-item').addClass('main'))
+					),
 				8 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
