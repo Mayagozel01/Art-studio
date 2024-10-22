@@ -1,7 +1,42 @@
 .slider-item.skew-left {
-    transform: skew(-15deg);
-  }
+  transform: skewX(-15deg);
+  scale: 107%;
+}
   
-  .slider-item.skew-right {
-    transform: skew(15deg);
-  }
+.slider-item.skew-right {
+  transform: skew(15deg);
+  scale: 107%;
+}
+
+.slider {
+  position: relative;
+}
+
+.number_of_sliders {
+  color: aliceblue;
+  font-size: large;
+  font-weight: bolder;
+  background-color: red;
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  z-index: 111;
+}
+
+.project__body-item-title {
+  width: 1114rem;
+		color: #fff;
+		font-size: 80rem;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 90%;
+		text-transform: uppercase;
+		margin-left: -71rem;
+		margin-top: 444rem;
+		opacity: 0;
+		transition: all 0.5s ease;
+}
+
+.active_project_title {
+  opacity: 1;
+}

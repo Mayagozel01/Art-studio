@@ -1,5 +1,9 @@
 const slider = document.querySelector('.slider');
 const sliderItems = document.querySelectorAll('.slider-item');
+const numberOfSliders = document.querySelector('p.number_of_sliders');
+const projects_titles = document.querySelectorAll('.project__body-item-title');
+
+console.log("lllllllllllllllllll ",projects_titles.length)
 
 let isDragging = false;
 let startPos = 0;
@@ -9,7 +13,7 @@ let animationID;
 let currentIndex = 0;
 // let slideWidth = sliderItems[0].clientWidth;
 const sliderItemStyle = window.getComputedStyle(sliderItems[0]);
-const slideWidth = parseFloat(sliderItemStyle.width);
+let slideWidth = parseFloat(sliderItemStyle.width);
 
 // Get screen width
 const screenWidth = window.innerWidth;
@@ -37,13 +41,15 @@ if (screenWidth > 920){
     slider.addEventListener('touchmove', drag);
 }
 
+numberOfSliders.innerHTML = `/00${currentIndex + 1} <br /> 00${sliderItems.length}`;
+
 function dragStart(e) {
     isDragging = true;
     startPos = getPositionX(e);
     slider.style.transition = 'none';
 
     // Cancel animation frame during drag
-    // cancelAnimationFrame(animationID);
+    cancelAnimationFrame(animationID);
 
     sliderItems.forEach(item => item.classList.remove('skew-left', 'skew-right'));
 }
@@ -63,6 +69,7 @@ function drag(e) {
     } else {
         sliderItems.forEach(item => item.classList.add('skew-right'));
     }
+    projects_titles.forEach(item => item?.classList?.remove('active_project_title'));
 }
 
 function dragEnd() {
@@ -82,12 +89,16 @@ function dragEnd() {
 
     // Reset the skew once dragging ends
     sliderItems.forEach(item => item.classList.remove('skew-left', 'skew-right'));
+    sliderItems[currentIndex].style["border-radius"] = "50%";
+    numberOfSliders.innerHTML = `/00${currentIndex + 1} <br /> 00${sliderItems.length}`;
+
+    projects_titles[currentIndex].classList.add('active_project_title');
 }
 
 function setPositionByIndex() {
     currentTranslate = currentIndex * -slideWidth;
     prevTranslate = currentTranslate;
-    slider.style.transition = 'transform 0.3s ease-out';
+    slider.style.transition = 'transform 0.2s';
     slider.style.transform = `translateX(${currentTranslate}px)`;
     console.log("slideWidth setPositionByIndex =====",slideWidth)
 }
