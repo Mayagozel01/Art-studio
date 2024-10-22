@@ -1,0 +1,14 @@
+body{
+    background-color: #121212;
+}
+.myswiper{
+    height: 50vh;
+    margin-top: 10%;
+}
+.swiper-slide{
+    height: 40vh;
+    border:2px solid palevioletred;
+    background-color: black;
+    color:wheat;
+    font-size: 100px;}
+
