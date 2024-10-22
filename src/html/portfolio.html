@@ -4,36 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Sofia Sans' rel='stylesheet'>
+    <link
+    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/my_style.css" />
     <link rel="stylesheet" href="../css/portfolio.css">
+    <!-- <link rel="stylesheet" href="../css/header.css"> -->
+    <link rel="stylesheet" href="../css/menu_cylinder_img.css" />
     <title>Portfolio</title>
 </head>
 <body>
-    <div data-include="layouts/header.html"></div>
-    <section class="banner">
-        <div class="banner__heading">
-            <h1 class="heading-primary 
-            heading-primary--banner">портфолио</h1>
-            <div class="rounded__btn rounded__btn--allprojects">
-                +
+     <!-- <div data-include="layouts/header.html"></div> -->
+     <header class="header black">
+        <div class="header-top">
+            <div class="header__menu-list-item" >
+                <a href="">Заказать звонок</a>
+                <a class="mobile__content" href=""></a>
+            </div>
+            <div class="header__menu-list-item">
+                <a href="">AB STUDIO</a>
+            </div>
+            <div class="header__menu-list-item">
+                <button class="header__burger">
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
-        <div class="banner__image">
-            <img src="../img/view-3d-house-model 1.png"/>
-            <div class="rounded__btn rounded__btn--architect">
-                +
+        <div class="header__bottom">
+            <div class="header__bottom-left">
+                <div>
+                    <a id="id__project" href="#architecture__after"
+                        >индивидуальное <br />
+                        проектирование</a
+                    >
+                    <a id="id__landscape" href="#landscape__after"
+                        >ландшафтный <br />
+                        дизайн</a
+                    >
+                    <a id="id__interior" href="#interior__after"
+                        >дизайн <br />
+                        интерьера
+                    </a>
+                    <a id="id__building" href="#building__after">строительство</a>
+                </div>
+                <div>
+                    <a href="">о нас</a>
+                    <a href="">новости</a>
+                    <a id="id__footer" href="#footer">контакты</a>
+                </div>
+                <div class="social__mobile mobile__content">
+                    <a href=""></a>
+                    <div class="social__line"></div>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
             </div>
-            <div class="rounded__btn rounded__btn--design">
-                +
-            </div>
-            <div class="rounded__btn rounded__btn--landshaft">
-                +
+            <div class="header__bottom-center"></div>
+            <div class="header__bottom-right desktop__content">
+                <div class="maps__column">
+                    <span>контакты</span>
+                    <div
+                        class="map"
+                        id="map"
+                        style="width: 463px; height: 239px"
+                    ></div>
+                </div>
+                <div class="contact__column">
+                    <a class="contact__link" href=""
+                        >москва, <br />
+                        ул. Большая Якиманка, 33/13с2
+                    </a>
+                    <a class="contact__link" href="+74951896813"
+                        >+7 (495) 189-68-13</a
+                    >
+                    <a class="contact__link" href="">WhatsApp</a>
+                    <a class="contact__link" href="">Telegram</a>
+                    <a class="contact__link" href="">mail@mail.com</a>
+                    <div class="header__social">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
             </div>
         </div>
-
-    </section>
-    
+        <div class="cylinder_content">
+            <div class="cylinder_gallery">
+                <div class="cylinder_images">
+                    <img src="../img/dist/after__archit.png" alt="Image 1">
+                    <img src="../img/dist/bui-mob.jpg" alt="Image 2">
+                    <img src="../img/dist/Ellipse 20.png" alt="Image 3">
+                    <img src="../img/dist/landscape-mob.png" alt="Image 4">
+                </div>
+            </div>
+        </div>
+    </header>   
   
+    <!-- <div class="test">  </div> -->
+    <div class="portfolio__title">
+        <h1 class="portfolio__title-heading">портфолио</h1>
+            <svg class="btn__circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 123" fill="none">
+                <circle cx="61.5" cy="61.5" r="61.5" fill="#262626"></circle>
+                <path d="M61.5 46V77.5" stroke="white" stroke-width="2"></path>
+                <path d="M45 61.5H77" stroke="white" stroke-width="2"></path>
+            </svg>
+    </div>
+    <div class="portfolio__banner">
+        <img src="../img/view-3d-house-model 1.png" alt="">
+            <svg class="btn__circle first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 123" fill="none">
+                <circle cx="61.5" cy="61.5" r="61.5" fill="#5979A4"></circle>
+                <path d="M61.5 46V77.5" stroke="white" stroke-width="2"></path>
+                <path d="M45 61.5H77" stroke="white" stroke-width="2"></path>
+            </svg>
+            <svg class="btn__circle second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 123" fill="none">
+                <circle cx="61.5" cy="61.5" r="61.5" fill="#95634B"></circle>
+                <path d="M61.5 46V77.5" stroke="white" stroke-width="2"></path>
+                <path d="M45 61.5H77" stroke="white" stroke-width="2"></path>
+            </svg>
+            <svg class="btn__circle third" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 123" fill="none">
+                <circle cx="61.5" cy="61.5" r="61.5" fill="#616C65"></circle>
+                <path d="M61.5 46V77.5" stroke="white" stroke-width="2"></path>
+                <path d="M45 61.5H77" stroke="white" stroke-width="2"></path>
+            </svg>
+
+    </div>
+    <div data-include="layouts/footer.html"></div>
 </body>
 <script
 src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"
