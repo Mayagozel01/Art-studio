@@ -2,13 +2,57 @@ body{
     background-color: #121212;
 }
 .myswiper{
-    height: 50vh;
+    /* height: 50vh; */
     margin-top: 10%;
 }
 .swiper-slide{
-    height: 40vh;
-    border:2px solid palevioletred;
-    background-color: black;
     color:wheat;
-    font-size: 100px;}
+    font-size: 100px;
+}
 
+ 
+      .gallery-thumbs {
+        z-index: 100!important;
+        position: absolute;
+        float: right;
+        left: 84%;
+        width: calc(16% - 20px);
+        height: 100vh;
+        margin-right: 20px;
+      }
+      
+      .gallery-thumbs .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      
+      .gallery-thumbs .swiper-slide-active {
+        border: 1px solid grey;
+      }
+      
+      .gallery-thumbs .swiper-slide:hover {
+        border: 1px solid grey;
+      }
+      
+      .gallery-top {
+        float: right;
+        height: 100vh;
+        width: 100%;
+
+      }
+      
+      .gallery-top .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        border: 1px solid grey;
+      }
+
+      
+      .swiper-button-next{
+        margin-right: 20%;
+      }
