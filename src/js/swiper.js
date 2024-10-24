@@ -11,11 +11,16 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
   direction: 'vertical',
   slidesPerView: 4,
   slideToClickedSlide: true,
-  scrollbar: true,
   spaceBetween: 10,
   loopedSlides: 50,
   loop: true,
-
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+    dragSize:50,
+    draggable:true,
+    hide:false
+  },
 });
 
 galleryTop.controller.control = galleryThumbs;
