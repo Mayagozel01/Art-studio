@@ -1,4 +1,16 @@
-	function onEntry(e) {
+
+// project page slider
+$(document).ready(function(){
+		$("li").click(function(){
+			if ($(this).hasClass('active')) {
+			$(this).removeClass('active');
+		} else {
+			$(this).siblings().removeClass("active"); 
+            $(this).addClass("active");
+		 }
+		  });
+		});
+function onEntry(e) {
 		e.forEach(e => {
 			e.target.classList.add('element-show')
 		})
@@ -7,7 +19,7 @@
 		observer = new IntersectionObserver(onEntry, options),
 		elements = document.querySelectorAll('.element-animation')
 	for (let e of elements) observer.observe(e)
-	let NumberEvent = 4,
+	let NumberEvent = 0,
 		WheelTop = $(window).height(),
 		wheel = !0,
 		delay = 1500,

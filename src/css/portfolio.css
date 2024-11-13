@@ -87,3 +87,23 @@ body{
   position: absolute;
   z-index: 5;
 }
+.projects__menu ul{
+  display: flex;
+  margin-top:120px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.projects__menu ul>li.active{
+  border-bottom: 1px solid white;
+}
+.projects__menu-item{
+  font-family: 'Sofia Sans', sans-serif;;
+font-size: 24px;
+font-weight: 300;
+line-height: 24px;
+text-align: left;
+color: white;
+text-transform: uppercase;
+margin-right: 30px;
+
+}
