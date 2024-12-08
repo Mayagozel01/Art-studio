@@ -1,0 +1,7 @@
+.slider-item.skew-left {
+    transform: skew(-15deg);
+  }
+  
+  .slider-item.skew-right {
+    transform: skew(15deg);
+  }

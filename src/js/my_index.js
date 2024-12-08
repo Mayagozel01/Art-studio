@@ -1,4 +1,16 @@
-	function onEntry(e) {
+
+// project page slider
+$(document).ready(function(){
+		$("li").click(function(){
+			if ($(this).hasClass('active')) {
+			$(this).removeClass('active');
+		} else {
+			$(this).siblings().removeClass("active"); 
+            $(this).addClass("active");
+		 }
+		  });
+		});
+function onEntry(e) {
 		e.forEach(e => {
 			e.target.classList.add('element-show')
 		})
@@ -312,15 +324,16 @@
 					NumberEvent < 8 &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
-					$('.project').addClass('active'),
-					6 == NumberEvent &&
-						($('.project__body').addClass('firstScroll'),
-						$('.project__itemOne').addClass('soft'),
-						$('.project__itemOne').next('.project__body-item').addClass('main')),
-					7 == NumberEvent &&
+					$('.project').addClass('active'))
+					 6 == NumberEvent &&
+					($('.project__body').addClass('firstScroll'),
+					$('.project__itemOne').addClass('soft'),
+					$('.project__itemOne').next('.project__body-item').addClass('main')),
+					 7 == NumberEvent &&
 						($('.project__body').addClass('SecondScroll'),
 						$('.project__itemTwo').addClass('soft'),
-						$('.project__itemTwo').next('.project__body-item').addClass('main'))),
+					 	$('.project__itemTwo').next('.project__body-item').addClass('main'))
+					,
 				8 == NumberEvent &&
 					($('.header').removeClass('black'),
 					$('.header').addClass('white'),
