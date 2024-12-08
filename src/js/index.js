@@ -249,6 +249,7 @@ const Low = () => {
 	},
 	Top = () => {
 		NumberEvent++,
+		console.log('top--->', NumberEvent)
 			sessionStorage.setItem('low', NumberEvent),
 			1 == NumberEvent &&
 				($('.main').removeClass('active'),
@@ -534,23 +535,23 @@ function init() {
 	}),
 		e.geoObjects.add(t)
 }
-// $(document).bind('keydown mousewheel', e => {
-// 	console.log("4545454545")
-// 	const t = { 38: 'up', 40: 'down' },
-// 		a = e.originalEvent.deltaY
-// 	wheel &&
-// 		arrows &&
-// 		((wheel = !1),
-// 		setTimeout(() => {
-// 			wheel = windowWidth >= 780
-// 		}, delay),
-// 		(arrows = !1),
-// 		setTimeout(() => {
-// 			arrows = windowWidth >= 780
-// 		}, delay),
-// 		(a > 0 || 'down' == t[e.keyCode]) && Top(),
-// 		(a < 0 || 'up' == t[e.keyCode]) && Low())
-// }),
+$(document).bind('keydown mousewheel', e => {
+	console.log("4545454545")
+	const t = { 38: 'up', 40: 'down' },
+		a = e.originalEvent.deltaY
+	wheel &&
+		arrows &&
+		((wheel = !1),
+		setTimeout(() => {
+			wheel = windowWidth >= 780
+		}, delay),
+		(arrows = !1),
+		setTimeout(() => {
+			arrows = windowWidth >= 780
+		}, delay),
+		(a > 0 || 'down' == t[e.keyCode]) && Top(),
+		(a < 0 || 'up' == t[e.keyCode]) && Low())
+}),
 sessionStorage.setItem('low', 0),
 	windowWidth >= 780 &&
 		($('#id__project').on('mouseup', function (e) {
@@ -1199,8 +1200,8 @@ var splide
 	})).mount()
 
 
-//maya 
-let architecture = document.getElementById('architecture'),
-    title = document.getElementById('title'),
-    mark = title.querySelector("span"),
-    dot = document.querySelector(".dot");
+// //maya 
+// let architecture = document.getElementById('architecture'),
+//     title = document.getElementById('title'),
+//     mark = title.querySelector("span"),
+//     dot = document.querySelector(".dot");
